@@ -1,3 +1,4 @@
+//%attributes = {"invisible":true}
 
 ValRes:=Coll1
 

@@ -1,4 +1,5 @@
-C_TEXT:C284($s)
+//%attributes = {"invisible":true}
+var $s : Text
 
 If (countries.length>0)
 	// Removes the last element from the collection and returns it in $s

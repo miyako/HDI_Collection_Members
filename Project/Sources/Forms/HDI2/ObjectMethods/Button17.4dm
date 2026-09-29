@@ -1,3 +1,4 @@
+//%attributes = {"invisible":true}
 
 
 PricesList.remove(0)

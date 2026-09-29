@@ -1,53 +1,44 @@
 //%attributes = {"invisible":true}
-C_TEXT:C284(vDescription1)
-C_TEXT:C284(vDescription2)
-C_REAL:C285(Button)
-C_COLLECTION:C1488(Countries)
-C_COLLECTION:C1488(countriescol)
-C_COLLECTION:C1488(CountriesCopy)
-C_TEXT:C284(countriescsv)
-C_LONGINT:C283(RowNumber)
-C_TEXT:C284(ValueToInsert)
-C_TEXT:C284(ExtractProperty)
+var vDescription1; vDescription2 : Text
+var Countries : Collection
+var countriescol : Collection
+var CountriesCopy : Collection
+var countriescsv : Text
+var RowNumber : Integer
+var ValueToInsert : Text
+var ExtractProperty : Text
 
-ARRAY TEXT:C222(ISO_3166_1; 0)
-ARRAY TEXT:C222(ISO_3166_2; 0)
-ARRAY TEXT:C222(ISO_3166_3; 0)
-ARRAY TEXT:C222(Fips; 0)
-ARRAY TEXT:C222(Country; 0)
-ARRAY TEXT:C222(Capital; 0)
-ARRAY TEXT:C222(Area_in_km; 0)
-ARRAY TEXT:C222(Surface; 0)
-ARRAY TEXT:C222(Continent; 0)
+ARRAY TEXT(ISO_3166_1; 0)
+ARRAY TEXT(ISO_3166_2; 0)
+ARRAY TEXT(ISO_3166_3; 0)
+ARRAY TEXT(Fips; 0)
+ARRAY TEXT(Country; 0)
+ARRAY TEXT(Capital; 0)
+ARRAY TEXT(Area_in_km; 0)
+ARRAY TEXT(Surface; 0)
+ARRAY TEXT(Continent; 0)
 
 
 
-C_BOOLEAN:C305(AllRes)
-C_LONGINT:C283(ASRes)
-C_BOOLEAN:C305(AtLeast1Res)
-C_LONGINT:C283(AverageRes)
-C_COLLECTION:C1488(Coll1)
-C_COLLECTION:C1488(Coll2)
-C_COLLECTION:C1488(CollectionRes)
-C_LONGINT:C283(CountRes)
-C_COLLECTION:C1488(CountriesObj)
-C_COLLECTION:C1488(CountriesSplit)
-C_LONGINT:C283(CountValRes)
-C_COLLECTION:C1488(Doubles)
-C_BOOLEAN:C305(EqualRes)
-C_COLLECTION:C1488(FindRes)
-C_LONGINT:C283(FirstRes)
-C_LONGINT:C283(LastRes)
-C_LONGINT:C283(MaxRes)
-C_LONGINT:C283(MinRes)
-C_COLLECTION:C1488(Numbers)
-C_COLLECTION:C1488(PricesList)
-C_COLLECTION:C1488(PricesWithNull)
-C_LONGINT:C283(ReduceRes)
-C_LONGINT:C283(SumRes)
-C_COLLECTION:C1488(ValRes)
+var AllRes : Boolean
+var ASRes : Integer
+var AtLeast1Res : Boolean
+var AverageRes : Real
+var Coll1; Coll2; CollectionRes : Collection
+var CountRes : Integer
+var CountriesObj : Collection
+var CountriesSplit : Collection
+var CountValRes : Integer
+var Doubles : Collection
+var EqualRes : Boolean
+var FindRes : Collection
+var FirstRes; LastRes; MaxRes; MinRes : Integer
+var Numbers : Collection
+var PricesList; PricesWithNull : Collection
+var ReduceRes; SumRes : Integer
+var ValRes : Collection
 
-C_BOOLEAN:C305(AL1Res)
-C_COLLECTION:C1488(CountriesWithNull)
-C_LONGINT:C283(LengthRes)
-C_COLLECTION:C1488(TypeMix)
+var AL1Res : Boolean
+var CountriesWithNull : Collection
+var LengthRes : Integer
+var TypeMix : Collection

@@ -1,5 +1,6 @@
-C_LONGINT:C283($i)
-C_COLLECTION:C1488($c)
+//%attributes = {"invisible":true}
+var $i : Integer
+var $c : Collection
 
 $c:=New collection:C1472
 
@@ -16,5 +17,3 @@ If (CountriesSplit.length>0)
 	
 	CountriesSplit:=New collection:C1472
 End if 
-
-

@@ -7,9 +7,9 @@
 // $0 -> Collection of countries name
 // ----------------------------------------------------
 
-C_COLLECTION:C1488($c; $0)
-C_COLLECTION:C1488($num)
-C_LONGINT:C283($i)
+#DECLARE->$c : Collection
+var $num : Collection
+var $i : Integer
 
 $num:=New collection:C1472
 $c:=New collection:C1472
@@ -21,6 +21,3 @@ End while
 For ($i; 0; $num.length-1)
 	$c.push(CountriesObj[$num[$i]].Country)
 End for 
-
-$0:=$c
-

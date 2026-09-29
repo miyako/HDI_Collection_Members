@@ -1,6 +1,7 @@
-C_COLLECTION:C1488($rows)
-C_LONGINT:C283($i)
-C_TEXT:C284($separator)
+//%attributes = {"invisible":true}
+var $rows : Collection
+var $i : Integer
+var $separator : Text
 
 If (countriescsv#"")
 	

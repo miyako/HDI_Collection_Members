@@ -1,3 +1,4 @@
+//%attributes = {"invisible":true}
 
 If (CountriesObj.length=0)
 	// Transforms 4 arrays in one object collection

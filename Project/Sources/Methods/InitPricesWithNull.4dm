@@ -1,4 +1,4 @@
-//%attributes = {}
+//%attributes = {"invisible":true}
 // ----------------------------------------------------
 // Méthode : InitPricesWithNull
 // Description
@@ -7,12 +7,10 @@
 // Paramètres
 // ----------------------------------------------------
 
-C_COLLECTION:C1488($c; $0)
+#DECLARE->$c : Collection
 
 $c:=InitPrices
 
 $c.insert(Random:C100%20; Null:C1517)
 $c.insert(Random:C100%20; Null:C1517)
 $c.insert(Random:C100%20; Null:C1517)
-
-$0:=$c

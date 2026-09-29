@@ -1,15 +1,15 @@
-//%attributes = {}
+//%attributes = {"invisible":true}
 // ----------------------------------------------------
 // Méthode : TotalPriceExclTax
 // Description
 // Call back function.
 // Calcul total price excluding tax
 // Paramètres
-// $1 -> object with 2 properties
-// $1.value -> element value to be evaluated
-// $1.accumulator -> value to be modified by the function
+// $param -> object with 2 properties
+// $param.value -> element value to be evaluated
+// $param.accumulator -> value to be modified by the function
 // ----------------------------------------------------
 
-C_OBJECT:C1216($1)
+#DECLARE($param : Object)
 
-$1.accumulator:=$1.accumulator+($1.value.SalesPriceExclTax*$1.value.Quantity)
+$param.accumulator:=$param.accumulator+($param.value.SalesPriceExclTax*$param.value.Quantity)

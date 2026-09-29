@@ -1,17 +1,16 @@
-//%attributes = {}
+//%attributes = {"invisible":true}
 // ----------------------------------------------------
 // Méthode : GreaterThan
 // Description
 // Call back function.
 // Search the element greater than the value past in parameter
 // Paramètres
-// $1 -> object with 2 properties
-// $1.value -> element value to be evaluated
-// $1.result ->  (boolean) true if the element value is greater than the value past in parameter ($2)
-// $2 -> Value min
+// $param -> object with 2 properties
+// $param.value -> element value to be evaluated
+// $param.result ->  (boolean) true if the element value is greater than the value past in parameter ($minValue)
+// $minValue -> Value min
 // ----------------------------------------------------
 
-C_LONGINT:C283($2)
-C_OBJECT:C1216($1)
+#DECLARE($param : Object; $minValue : Integer)
 
-$1.result:=$1.value>=$2
+$param.result:=$param.value>=$minValue

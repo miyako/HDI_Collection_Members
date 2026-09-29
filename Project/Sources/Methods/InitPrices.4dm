@@ -1,4 +1,4 @@
-//%attributes = {}
+//%attributes = {"invisible":true}
 // ----------------------------------------------------
 // Méthode : InitPrices
 // Description
@@ -7,12 +7,10 @@
 // Paramètres
 // ----------------------------------------------------
 
-C_LONGINT:C283($i; $1; $offset)
-C_COLLECTION:C1488($c; $0)
+#DECLARE($offset : Integer)->$c : Collection
+var $i : Integer
 
-If (Count parameters:C259>0)
-	$offset:=$1
-Else 
+If (Count parameters:C259=0)
 	$offset:=1
 End if 
 
@@ -21,5 +19,3 @@ $c:=New collection:C1472
 For ($i; 1; 20)
 	$c.push((Random:C100%11)+$offset)
 End for 
-
-$0:=$c

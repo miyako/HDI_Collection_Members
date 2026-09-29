@@ -1,4 +1,4 @@
-//%attributes = {}
+//%attributes = {"invisible":true}
 // ----------------------------------------------------
 // Méthode : InitCountriesObj
 // Description
@@ -6,8 +6,8 @@
 //
 // ----------------------------------------------------
 
-C_COLLECTION:C1488($c; $0)
-C_LONGINT:C283($i; $num)
+#DECLARE->$c : Collection
+var $i; $num : Integer
 ARRAY OBJECT:C1221($a; 0)
 
 $c:=New collection:C1472
@@ -18,6 +18,3 @@ $num:=Records in table:C83([Countries:3])
 
 SELECTION TO ARRAY:C260([Countries:3]CountryInfo:2; $a)
 ARRAY TO COLLECTION:C1563($c; $a)
-
-$0:=$c
-

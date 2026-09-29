@@ -1,3 +1,4 @@
+//%attributes = {"invisible":true}
 
 FindRes.clear()
 
@@ -5,4 +6,3 @@ FindRes.clear()
 FindRes.push(CountriesObj.find("FindContinent"; "AS"))
 
 FindRes:=FindRes
-

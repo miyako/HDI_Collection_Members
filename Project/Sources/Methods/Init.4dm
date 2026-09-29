@@ -1,4 +1,4 @@
-//%attributes = {}
+//%attributes = {"invisible":true}
 // page 2
 CountriesCsv:=Document to text:C1236(Get 4D folder:C485(Current resources folder:K5:16)+"Countries.csv"; "UTF-8"; Document with CR:K24:21)
 CountriesSplit:=New collection:C1472

@@ -1,11 +1,11 @@
-//%attributes = {}
+//%attributes = {"invisible":true}
 // ----------------------------------------------------
 // Méthode : CalcTab
 // Description
 // Start calucl of calculation tab
 // ----------------------------------------------------
 
-C_REAL:C285($average)
+var $average : Real
 
 // Returns the arithmetic mean (average) of defined values in PricesList collection
 $average:=PricesList.average("PurchasePrice")

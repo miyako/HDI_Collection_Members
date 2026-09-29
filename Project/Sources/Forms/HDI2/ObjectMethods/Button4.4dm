@@ -1,3 +1,4 @@
+//%attributes = {"invisible":true}
 
 If (CountriesObj.length>0)
 	// Transform the collection in serveral arrays

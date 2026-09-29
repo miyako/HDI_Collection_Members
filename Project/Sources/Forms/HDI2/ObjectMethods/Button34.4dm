@@ -1,3 +1,4 @@
+//%attributes = {"invisible":true}
 // Returns the Coll1 collection with all elements of coll2 added to the end.
 ValRes:=Coll1.concat(coll2)
 
