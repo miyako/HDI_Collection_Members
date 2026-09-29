@@ -114,7 +114,7 @@
 					"sizingX": "grow",
 					"dataSource": "[Countries:3]CountryInfo:2",
 					"dataSourceTypeHint": "object",
-					"fill": "#FFFFFF",
+					"fill": "automatic",
 					"borderStyle": "none",
 					"contextMenu": "none",
 					"dragging": "none",
@@ -136,7 +136,7 @@
 					"top": -5,
 					"left": 0,
 					"height": 46,
-					"stroke": "#A8A8A8"
+					"class": "divider-grey"
 				},
 				"Line6": {
 					"type": "line",
@@ -144,14 +144,14 @@
 					"left": 470,
 					"height": 46,
 					"sizingX": "move",
-					"stroke": "#A8A8A8"
+					"class": "divider-grey"
 				},
 				"Line7": {
 					"type": "line",
 					"top": -5,
 					"left": 88,
 					"height": 46,
-					"stroke": "#A8A8A8"
+					"class": "divider-grey"
 				},
 				"Splitter2": {
 					"type": "splitter",

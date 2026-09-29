@@ -59,9 +59,9 @@
 					"height": 720,
 					"visibility": "hidden",
 					"sizingY": "grow",
-					"stroke": "#DA70D6",
 					"strokeWidth": 2,
-					"strokeDashArray": "1 1"
+					"strokeDashArray": "1 1",
+					"class": "divider-pink"
 				},
 				"Line14": {
 					"type": "line",
@@ -70,9 +70,9 @@
 					"height": 720,
 					"visibility": "hidden",
 					"sizingY": "grow",
-					"stroke": "#DA70D6",
 					"strokeWidth": 2,
-					"strokeDashArray": "1 1"
+					"strokeDashArray": "1 1",
+					"class": "divider-pink"
 				},
 				"Line15": {
 					"type": "line",
@@ -81,9 +81,9 @@
 					"width": 1160,
 					"visibility": "hidden",
 					"sizingY": "grow",
-					"stroke": "#DA70D6",
 					"strokeWidth": 2,
-					"strokeDashArray": "1 1"
+					"strokeDashArray": "1 1",
+					"class": "divider-pink"
 				}
 			}
 		},
@@ -134,26 +134,26 @@
 					"top": 240,
 					"left": 440,
 					"width": 280,
-					"height": 20,
 					"text": "Split >>",
 					"focusable": false,
 					"method": "ObjectMethods/Button2.4dm",
 					"events": [
 						"onClick"
-					]
+					],
+					"class": "default"
 				},
 				"Button12": {
 					"type": "button",
 					"top": 360,
 					"left": 440,
 					"width": 280,
-					"height": 20,
 					"text": "<< Join",
 					"focusable": false,
 					"method": "ObjectMethods/Button12.4dm",
 					"events": [
 						"onClick"
-					]
+					],
+					"class": "default"
 				},
 				"Variable14": {
 					"type": "input",
@@ -198,9 +198,9 @@
 					"left": 40,
 					"width": 380,
 					"height": 15,
-					"stroke": "#696969",
 					"textAlign": "right",
-					"text": "CountriesCSV"
+					"text": "CountriesCSV",
+					"class": "muted-text"
 				},
 				"Text9": {
 					"type": "text",
@@ -209,9 +209,9 @@
 					"width": 200,
 					"height": 15,
 					"sizingX": "move",
-					"stroke": "#696969",
 					"textAlign": "right",
-					"text": "CountriesSplit"
+					"text": "CountriesSplit",
+					"class": "muted-text"
 				}
 			}
 		},
@@ -222,13 +222,13 @@
 					"top": 360,
 					"left": 440,
 					"width": 200,
-					"height": 20,
 					"text": "<= array to collection",
 					"focusable": false,
 					"method": "ObjectMethods/Button13.4dm",
 					"events": [
 						"onClick"
-					]
+					],
+					"class": "default"
 				},
 				"countriesobj": {
 					"type": "input",
@@ -250,13 +250,13 @@
 					"top": 240,
 					"left": 440,
 					"width": 200,
-					"height": 20,
 					"text": "Collection to array =>",
 					"focusable": false,
 					"method": "ObjectMethods/Button4.4dm",
 					"events": [
 						"onClick"
-					]
+					],
+					"class": "default"
 				},
 				"List Box1": {
 					"type": "listbox",
@@ -426,9 +426,9 @@
 					"left": 40,
 					"width": 380,
 					"height": 15,
-					"stroke": "#696969",
 					"textAlign": "right",
-					"text": "CountriesObj"
+					"text": "CountriesObj",
+					"class": "muted-text"
 				}
 			}
 		},
@@ -473,26 +473,26 @@
 					"top": 240,
 					"left": 380,
 					"width": 400,
-					"height": 20,
 					"text": "Send first element to first place  =>",
 					"focusable": false,
 					"method": "ObjectMethods/Button23.4dm",
 					"events": [
 						"onClick"
-					]
+					],
+					"class": "default"
 				},
 				"Button3": {
 					"type": "button",
 					"top": 480,
 					"left": 380,
 					"width": 400,
-					"height": 20,
 					"text": "Send last left element to last place =>",
 					"focusable": false,
 					"method": "ObjectMethods/Button3.4dm",
 					"events": [
 						"onClick"
-					]
+					],
+					"class": "default"
 				},
 				"Variable17": {
 					"type": "input",
@@ -540,9 +540,9 @@
 					"left": 40,
 					"width": 320,
 					"height": 15,
-					"stroke": "#696969",
 					"textAlign": "right",
-					"text": "Countries"
+					"text": "Countries",
+					"class": "muted-text"
 				},
 				"Text5": {
 					"type": "text",
@@ -550,9 +550,9 @@
 					"left": 800,
 					"width": 320,
 					"height": 15,
-					"stroke": "#696969",
 					"textAlign": "right",
-					"text": "CountriesCopy"
+					"text": "CountriesCopy",
+					"class": "muted-text"
 				},
 				"Variable60": {
 					"type": "input",
@@ -579,7 +579,7 @@
 					"top": 440,
 					"left": 400,
 					"width": 360,
-					"stroke": "#696969"
+					"class": "muted-text"
 				}
 			}
 		},
@@ -624,14 +624,14 @@
 					"top": 240,
 					"left": 420,
 					"width": 320,
-					"height": 20,
 					"dataSource": "Button",
 					"text": "Map numbers =>",
 					"focusable": false,
 					"method": "ObjectMethods/Button26.4dm",
 					"events": [
 						"onClick"
-					]
+					],
+					"class": "default"
 				},
 				"Variable8": {
 					"type": "input",
@@ -659,9 +659,9 @@
 					"left": 40,
 					"width": 320,
 					"height": 15,
-					"stroke": "#696969",
 					"textAlign": "right",
-					"text": "Numbers"
+					"text": "Numbers",
+					"class": "muted-text"
 				},
 				"Text3": {
 					"type": "text",
@@ -669,9 +669,9 @@
 					"left": 800,
 					"width": 320,
 					"height": 15,
-					"stroke": "#696969",
 					"textAlign": "right",
-					"text": "Doubles"
+					"text": "Doubles",
+					"class": "muted-text"
 				},
 				"Variable59": {
 					"type": "input",
@@ -799,14 +799,14 @@
 					"top": 600,
 					"left": 420,
 					"width": 320,
-					"height": 20,
 					"dataSource": "Button",
 					"text": "Remove first element and calculate again",
 					"focusable": false,
 					"method": "ObjectMethods/Button17.4dm",
 					"events": [
 						"onClick"
-					]
+					],
+					"class": "default"
 				},
 				"Variable22": {
 					"type": "input",
@@ -914,9 +914,9 @@
 					"left": 40,
 					"width": 280,
 					"height": 15,
-					"stroke": "#696969",
 					"textAlign": "right",
-					"text": "PricesList"
+					"text": "PricesList",
+					"class": "muted-text"
 				},
 				"Variable27": {
 					"type": "input",
@@ -1028,21 +1028,21 @@
 					"top": 240,
 					"left": 420,
 					"width": 320,
-					"height": 20,
 					"dataSource": "Button",
 					"text": "Calculate values !",
 					"focusable": false,
 					"method": "ObjectMethods/Button5.4dm",
 					"events": [
 						"onClick"
-					]
+					],
+					"class": "default"
 				},
 				"Line11": {
 					"type": "line",
 					"top": 440,
 					"left": 360,
 					"width": 440,
-					"stroke": "#696969"
+					"class": "muted-text"
 				}
 			}
 		},
@@ -1158,23 +1158,23 @@
 					"left": 40,
 					"width": 320,
 					"height": 15,
-					"stroke": "#696969",
 					"textAlign": "right",
-					"text": "Countries"
+					"text": "Countries",
+					"class": "muted-text"
 				},
 				"Button16": {
 					"type": "button",
 					"top": 440,
 					"left": 380,
 					"width": 240,
-					"height": 20,
 					"dataSource": "Button",
 					"text": "<= Insert in this collection",
 					"focusable": false,
 					"method": "ObjectMethods/Button16.4dm",
 					"events": [
 						"onClick"
-					]
+					],
+					"class": "default"
 				}
 			}
 		},
@@ -1219,26 +1219,26 @@
 					"top": 240,
 					"left": 420,
 					"width": 320,
-					"height": 20,
 					"text": "Extract countries list =>",
 					"focusable": false,
 					"method": "ObjectMethods/Button31.4dm",
 					"events": [
 						"onClick"
-					]
+					],
+					"class": "default"
 				},
 				"Button36": {
 					"type": "button",
 					"top": 480,
 					"left": 420,
 					"width": 320,
-					"height": 20,
 					"text": "Populate new object collection =>",
 					"focusable": false,
 					"method": "ObjectMethods/Button36.4dm",
 					"events": [
 						"onClick"
-					]
+					],
+					"class": "default"
 				},
 				"Variable62": {
 					"type": "input",
@@ -1306,9 +1306,9 @@
 					"left": 40,
 					"width": 280,
 					"height": 15,
-					"stroke": "#696969",
 					"textAlign": "right",
-					"text": "CountriesObj"
+					"text": "CountriesObj",
+					"class": "muted-text"
 				},
 				"Text32": {
 					"type": "text",
@@ -1316,23 +1316,23 @@
 					"left": 840,
 					"width": 280,
 					"height": 15,
-					"stroke": "#696969",
 					"textAlign": "right",
-					"text": "FindRes"
+					"text": "FindRes",
+					"class": "muted-text"
 				},
 				"Line17": {
 					"type": "line",
 					"top": 440,
 					"left": 360,
 					"width": 440,
-					"stroke": "#696969"
+					"class": "muted-text"
 				},
 				"Line9": {
 					"type": "line",
 					"top": 320,
 					"left": 360,
 					"width": 440,
-					"stroke": "#696969"
+					"class": "muted-text"
 				},
 				"Text7": {
 					"type": "text",
@@ -1361,13 +1361,13 @@
 					"top": 390,
 					"left": 420,
 					"width": 320,
-					"height": 20,
 					"text": "Extract =>",
 					"focusable": false,
 					"method": "ObjectMethods/Button14.4dm",
 					"events": [
 						"onClick"
-					]
+					],
+					"class": "default"
 				}
 			}
 		},
@@ -1412,39 +1412,39 @@
 					"top": 240,
 					"left": 420,
 					"width": 320,
-					"height": 20,
 					"text": "First Asian country =>",
 					"focusable": false,
 					"method": "ObjectMethods/Button7.4dm",
 					"events": [
 						"onClick"
-					]
+					],
+					"class": "default"
 				},
 				"Button9": {
 					"type": "button",
 					"top": 360,
 					"left": 420,
 					"width": 320,
-					"height": 20,
 					"text": "List of Asian countries =>",
 					"focusable": false,
 					"method": "ObjectMethods/Button9.4dm",
 					"events": [
 						"onClick"
-					]
+					],
+					"class": "default"
 				},
 				"Button10": {
 					"type": "button",
 					"top": 480,
 					"left": 420,
 					"width": 320,
-					"height": 20,
 					"text": "Countries with surface < 1000 =>",
 					"focusable": false,
 					"method": "ObjectMethods/Button10.4dm",
 					"events": [
 						"onClick"
-					]
+					],
+					"class": "default"
 				},
 				"Variable29": {
 					"type": "input",
@@ -1532,9 +1532,9 @@
 					"left": 40,
 					"width": 280,
 					"height": 15,
-					"stroke": "#696969",
 					"textAlign": "right",
-					"text": "CountriesObj"
+					"text": "CountriesObj",
+					"class": "muted-text"
 				},
 				"Text23": {
 					"type": "text",
@@ -1542,23 +1542,23 @@
 					"left": 840,
 					"width": 280,
 					"height": 15,
-					"stroke": "#696969",
 					"textAlign": "right",
-					"text": "FindRes"
+					"text": "FindRes",
+					"class": "muted-text"
 				},
 				"Line7": {
 					"type": "line",
 					"top": 320,
 					"left": 360,
 					"width": 440,
-					"stroke": "#696969"
+					"class": "muted-text"
 				},
 				"Line8": {
 					"type": "line",
 					"top": 440,
 					"left": 360,
 					"width": 440,
-					"stroke": "#696969"
+					"class": "muted-text"
 				}
 			}
 		},
@@ -1603,26 +1603,26 @@
 					"top": 257,
 					"left": 420,
 					"width": 220,
-					"height": 20,
 					"text": "Index of first Asian country",
 					"focusable": false,
 					"method": "ObjectMethods/Button19.4dm",
 					"events": [
 						"onClick"
-					]
+					],
+					"class": "default"
 				},
 				"Button21": {
 					"type": "button",
 					"top": 317,
 					"left": 420,
 					"width": 307,
-					"height": 20,
 					"text": "Indices of countries with surface < 1000 =>",
 					"focusable": false,
 					"method": "ObjectMethods/Button21.4dm",
 					"events": [
 						"onClick"
-					]
+					],
+					"class": "default"
 				},
 				"Variable6": {
 					"type": "input",
@@ -1722,39 +1722,39 @@
 					"top": 495,
 					"left": 420,
 					"width": 189,
-					"height": 20,
 					"text": "Search index of first null",
 					"focusable": false,
 					"method": "ObjectMethods/Button1.4dm",
 					"events": [
 						"onClick"
-					]
+					],
+					"class": "default"
 				},
 				"Button6": {
 					"type": "button",
 					"top": 571,
 					"left": 420,
 					"width": 189,
-					"height": 20,
 					"text": "Count values not null",
 					"focusable": false,
 					"method": "ObjectMethods/Button6.4dm",
 					"events": [
 						"onClick"
-					]
+					],
+					"class": "default"
 				},
 				"Button40": {
 					"type": "button",
 					"top": 533,
 					"left": 420,
 					"width": 189,
-					"height": 20,
 					"text": "Search index of last null",
 					"focusable": false,
 					"method": "ObjectMethods/Button40.4dm",
 					"events": [
 						"onClick"
-					]
+					],
+					"class": "default"
 				},
 				"Variable48": {
 					"type": "input",
@@ -1869,13 +1869,13 @@
 					"top": 647,
 					"left": 420,
 					"width": 189,
-					"height": 20,
 					"text": "Count values = 5",
 					"focusable": false,
 					"method": "ObjectMethods/Button8.4dm",
 					"events": [
 						"onClick"
-					]
+					],
+					"class": "default"
 				},
 				"Variable32": {
 					"type": "input",
@@ -1959,9 +1959,9 @@
 					"left": 40,
 					"width": 280,
 					"height": 15,
-					"stroke": "#696969",
 					"textAlign": "right",
-					"text": "CountriesObj"
+					"text": "CountriesObj",
+					"class": "muted-text"
 				},
 				"Text25": {
 					"type": "text",
@@ -1969,9 +1969,9 @@
 					"left": 40,
 					"width": 280,
 					"height": 15,
-					"stroke": "#696969",
 					"textAlign": "right",
-					"text": "TypeMix"
+					"text": "TypeMix",
+					"class": "muted-text"
 				},
 				"Text26": {
 					"type": "text",
@@ -1979,29 +1979,29 @@
 					"left": 840,
 					"width": 280,
 					"height": 15,
-					"stroke": "#696969",
 					"textAlign": "right",
-					"text": "FindRes"
+					"text": "FindRes",
+					"class": "muted-text"
 				},
 				"Line10": {
 					"type": "line",
 					"top": 440,
 					"left": 360,
 					"width": 440,
-					"stroke": "#696969"
+					"class": "muted-text"
 				},
 				"Button24": {
 					"type": "button",
 					"top": 609,
 					"left": 420,
 					"width": 189,
-					"height": 20,
 					"text": "Length",
 					"focusable": false,
 					"method": "ObjectMethods/Button24.4dm",
 					"events": [
 						"onClick"
-					]
+					],
+					"class": "default"
 				},
 				"Variable10": {
 					"type": "input",
@@ -2082,26 +2082,26 @@
 					"top": 240,
 					"left": 420,
 					"width": 320,
-					"height": 20,
 					"text": "Deep copy** =>",
 					"focusable": false,
 					"method": "ObjectMethods/Button28.4dm",
 					"events": [
 						"onClick"
-					]
+					],
+					"class": "default"
 				},
 				"Button30": {
 					"type": "button",
 					"top": 480,
 					"left": 420,
 					"width": 320,
-					"height": 20,
 					"text": "Collection with distinct values =>",
 					"focusable": false,
 					"method": "ObjectMethods/Button30.4dm",
 					"events": [
 						"onClick"
-					]
+					],
+					"class": "default"
 				},
 				"EqualRes": {
 					"type": "input",
@@ -2127,13 +2127,13 @@
 					"top": 360,
 					"left": 420,
 					"width": 320,
-					"height": 20,
 					"text": "First 10 elements =>",
 					"focusable": false,
 					"method": "ObjectMethods/Button32.4dm",
 					"events": [
 						"onClick"
-					]
+					],
+					"class": "default"
 				},
 				"Variable40": {
 					"type": "input",
@@ -2241,9 +2241,9 @@
 					"left": 40,
 					"width": 280,
 					"height": 15,
-					"stroke": "#696969",
 					"textAlign": "right",
-					"text": "PricesWithNull"
+					"text": "PricesWithNull",
+					"class": "muted-text"
 				},
 				"Text28": {
 					"type": "text",
@@ -2251,43 +2251,43 @@
 					"left": 840,
 					"width": 280,
 					"height": 15,
-					"stroke": "#696969",
 					"textAlign": "right",
-					"text": "ValRes"
+					"text": "ValRes",
+					"class": "muted-text"
 				},
 				"Line4": {
 					"type": "line",
 					"top": 320,
 					"left": 360,
 					"width": 440,
-					"stroke": "#696969"
+					"class": "muted-text"
 				},
 				"Line5": {
 					"type": "line",
 					"top": 440,
 					"left": 360,
 					"width": 440,
-					"stroke": "#696969"
+					"class": "muted-text"
 				},
 				"Line6": {
 					"type": "line",
 					"top": 560,
 					"left": 360,
 					"width": 440,
-					"stroke": "#696969"
+					"class": "muted-text"
 				},
 				"Button18": {
 					"type": "button",
 					"top": 600,
 					"left": 420,
 					"width": 210,
-					"height": 20,
 					"text": "Check equality",
 					"focusable": false,
 					"method": "ObjectMethods/Button18.4dm",
 					"events": [
 						"onClick"
-					]
+					],
+					"class": "default"
 				}
 			}
 		},
@@ -2349,39 +2349,39 @@
 					"top": 430,
 					"left": 360,
 					"width": 180,
-					"height": 20,
 					"text": "Concat =>",
 					"focusable": false,
 					"method": "ObjectMethods/Button34.4dm",
 					"events": [
 						"onClick"
-					]
+					],
+					"class": "default"
 				},
 				"Button33": {
 					"type": "button",
 					"top": 360,
 					"left": 360,
 					"width": 180,
-					"height": 20,
 					"text": "Collection1 =>",
 					"focusable": false,
 					"method": "ObjectMethods/Button33.4dm",
 					"events": [
 						"onClick"
-					]
+					],
+					"class": "default"
 				},
 				"Button35": {
 					"type": "button",
 					"top": 395,
 					"left": 360,
 					"width": 180,
-					"height": 20,
 					"text": "Collection2 =>",
 					"focusable": false,
 					"method": "ObjectMethods/Button35.4dm",
 					"events": [
 						"onClick"
-					]
+					],
+					"class": "default"
 				},
 				"AllRes": {
 					"type": "input",
@@ -2543,9 +2543,9 @@
 					"left": 40,
 					"width": 280,
 					"height": 15,
-					"stroke": "#696969",
 					"textAlign": "right",
-					"text": "Coll1"
+					"text": "Coll1",
+					"class": "muted-text"
 				},
 				"Text19": {
 					"type": "text",
@@ -2553,9 +2553,9 @@
 					"left": 40,
 					"width": 280,
 					"height": 15,
-					"stroke": "#696969",
 					"textAlign": "right",
-					"text": "Coll2"
+					"text": "Coll2",
+					"class": "muted-text"
 				},
 				"Text29": {
 					"type": "text",
@@ -2563,42 +2563,42 @@
 					"left": 580,
 					"width": 240,
 					"height": 15,
-					"stroke": "#696969",
 					"textAlign": "right",
-					"text": "ValRes"
+					"text": "ValRes",
+					"class": "muted-text"
 				},
 				"Line13": {
 					"type": "line",
 					"top": 440,
 					"left": 880,
 					"width": 220,
-					"stroke": "#696969"
+					"class": "muted-text"
 				},
 				"Button20": {
 					"type": "button",
 					"top": 321,
 					"left": 860,
 					"width": 153,
-					"height": 18,
 					"text": "All values >= 100",
 					"focusable": false,
 					"method": "ObjectMethods/Button20.4dm",
 					"events": [
 						"onClick"
-					]
+					],
+					"class": "default"
 				},
 				"Button22": {
 					"type": "button",
 					"top": 562,
 					"left": 860,
 					"width": 153,
-					"height": 18,
 					"text": "At least one value >=100",
 					"focusable": false,
 					"method": "ObjectMethods/Button22.4dm",
 					"events": [
 						"onClick"
-					]
+					],
+					"class": "default"
 				}
 			}
 		},
@@ -2609,14 +2609,14 @@
 					"top": 360,
 					"left": 420,
 					"width": 320,
-					"height": 20,
 					"dataSource": "Button",
 					"text": "Ascending order",
 					"focusable": false,
 					"method": "ObjectMethods/Button15.4dm",
 					"events": [
 						"onClick"
-					]
+					],
+					"class": "default"
 				},
 				"Variable20": {
 					"type": "input",
@@ -2643,14 +2643,14 @@
 					"top": 240,
 					"left": 420,
 					"width": 320,
-					"height": 20,
 					"dataSource": "Button",
 					"text": "Reverse  collection",
 					"focusable": false,
 					"method": "ObjectMethods/Button25.4dm",
 					"events": [
 						"onClick"
-					]
+					],
+					"class": "default"
 				},
 				"Variable30": {
 					"type": "input",
@@ -2711,14 +2711,14 @@
 					"top": 480,
 					"left": 420,
 					"width": 320,
-					"height": 20,
 					"dataSource": "Button",
 					"text": "Descending order",
 					"focusable": false,
 					"method": "ObjectMethods/Button11.4dm",
 					"events": [
 						"onClick"
-					]
+					],
+					"class": "default"
 				},
 				"Variable57": {
 					"type": "input",
@@ -2746,9 +2746,9 @@
 					"left": 40,
 					"width": 280,
 					"height": 15,
-					"stroke": "#696969",
 					"textAlign": "right",
-					"text": "CountriesWithNull"
+					"text": "CountriesWithNull",
+					"class": "muted-text"
 				},
 				"Text31": {
 					"type": "text",
@@ -2756,9 +2756,9 @@
 					"left": 840,
 					"width": 280,
 					"height": 15,
-					"stroke": "#696969",
 					"textAlign": "right",
-					"text": "ValRes"
+					"text": "ValRes",
+					"class": "muted-text"
 				},
 				"Variable58": {
 					"type": "input",
@@ -2785,35 +2785,35 @@
 					"top": 320,
 					"left": 360,
 					"width": 440,
-					"stroke": "#696969"
+					"class": "muted-text"
 				},
 				"Line2": {
 					"type": "line",
 					"top": 440,
 					"left": 360,
 					"width": 440,
-					"stroke": "#696969"
+					"class": "muted-text"
 				},
 				"Line3": {
 					"type": "line",
 					"top": 560,
 					"left": 360,
 					"width": 440,
-					"stroke": "#696969"
+					"class": "muted-text"
 				},
 				"Button27": {
 					"type": "button",
 					"top": 600,
 					"left": 420,
 					"width": 320,
-					"height": 20,
 					"dataSource": "Button",
 					"text": "Custom order: by word length",
 					"focusable": false,
 					"method": "ObjectMethods/Button27.4dm",
 					"events": [
 						"onClick"
-					]
+					],
+					"class": "default"
 				},
 				"Variable13": {
 					"type": "input",

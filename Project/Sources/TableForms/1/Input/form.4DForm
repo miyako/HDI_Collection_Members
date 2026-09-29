@@ -47,7 +47,7 @@
 					"width": 380,
 					"height": 17,
 					"sizingX": "grow",
-					"stroke": "#000000",
+					"stroke": "automatic",
 					"text": "INFO"
 				},
 				"Line6": {
@@ -239,7 +239,7 @@
 					"textAlign": "left",
 					"fontFamily": "Arial",
 					"fontSize": 12,
-					"fill": "#FFFFFF",
+					"fill": "automatic",
 					"borderStyle": "sunken",
 					"styledText": true,
 					"scrollbarVertical": "visible",
