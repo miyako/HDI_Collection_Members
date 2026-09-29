@@ -48,7 +48,7 @@
 					"height": 17,
 					"sizingX": "grow",
 					"stroke": "automatic",
-					"text": "INFO"
+					"text": ":xliff:TableForm1Input_Text5"
 				},
 				"Line6": {
 					"type": "line",
@@ -197,7 +197,7 @@
 					"width": 85,
 					"height": 17,
 					"textAlign": "right",
-					"text": "ID : "
+					"text": ":xliff:TableForm1Input_Text7"
 				},
 				"ID": {
 					"type": "input",

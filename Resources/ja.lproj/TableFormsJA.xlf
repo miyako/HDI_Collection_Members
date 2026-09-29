@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" version="1.2">
+  <file datatype="plaintext" original="Project/Sources/TableForms" source-language="en" target-language="ja">
+	<body>
+	  <trans-unit id="TableForm1Input_Text5" resname="TableForm1Input_Text5">
+		<source>INFO</source>
+		<target>INFO</target>
+	  </trans-unit>
+	  <trans-unit id="TableForm1Input_Text7" resname="TableForm1Input_Text7">
+		<source>ID : </source>
+		<target>ID : </target>
+	  </trans-unit>
+	  <trans-unit id="TableForm1Output_S1_Text" resname="TableForm1Output_S1_Text">
+		<source>ID : </source>
+		<target>ID : </target>
+	  </trans-unit>
+	  <trans-unit id="TableForm1Output_S2_Text" resname="TableForm1Output_S2_Text">
+		<source>Description : </source>
+		<target>説明 : </target>
+	  </trans-unit>
+	  <trans-unit id="TableForm2Input_Text6" resname="TableForm2Input_Text6">
+		<source>DICO</source>
+		<target>DICO</target>
+	  </trans-unit>
+	  <trans-unit id="TableForm2Input_Text8" resname="TableForm2Input_Text8">
+		<source>ID : </source>
+		<target>ID : </target>
+	  </trans-unit>
+	  <trans-unit id="TableForm2Input_Text9" resname="TableForm2Input_Text9">
+		<source>Word : </source>
+		<target>単語 : </target>
+	  </trans-unit>
+	  <trans-unit id="TableForm2Input_Text10" resname="TableForm2Input_Text10">
+		<source>Definition : </source>
+		<target>定義 : </target>
+	  </trans-unit>
+	  <trans-unit id="TableForm2Input_Text1" resname="TableForm2Input_Text1">
+		<source>Word : </source>
+		<target>単語 : </target>
+	  </trans-unit>
+	  <trans-unit id="TableForm2Output_S1_Text" resname="TableForm2Output_S1_Text">
+		<source>ID : </source>
+		<target>ID : </target>
+	  </trans-unit>
+	  <trans-unit id="TableForm2Output_S2_Text" resname="TableForm2Output_S2_Text">
+		<source>Word : </source>
+		<target>単語 : </target>
+	  </trans-unit>
+	  <trans-unit id="TableForm2Output_S3_Text" resname="TableForm2Output_S3_Text">
+		<source>Definition : </source>
+		<target>定義 : </target>
+	  </trans-unit>
+	  <trans-unit id="TableForm3Input_Text5" resname="TableForm3Input_Text5">
+		<source>Countries</source>
+		<target>Countries</target>
+	  </trans-unit>
+	  <trans-unit id="TableForm3Input_Text7" resname="TableForm3Input_Text7">
+		<source>ID : </source>
+		<target>ID : </target>
+	  </trans-unit>
+	  <trans-unit id="TableForm3Input_Text8" resname="TableForm3Input_Text8">
+		<source>CountryInfo : </source>
+		<target>国情報 : </target>
+	  </trans-unit>
+	  <trans-unit id="TableForm3Output_S1_Text" resname="TableForm3Output_S1_Text">
+		<source>ID : </source>
+		<target>ID : </target>
+	  </trans-unit>
+	  <trans-unit id="TableForm3Output_S2_Text" resname="TableForm3Output_S2_Text">
+		<source>CountryInfo : </source>
+		<target>国情報 : </target>
+	  </trans-unit>
+	</body>
+  </file>
+</xliff>

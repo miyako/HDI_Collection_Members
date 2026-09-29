@@ -46,7 +46,7 @@
 					"width": 382,
 					"height": 15,
 					"stroke": "automatic",
-					"text": "Countries"
+					"text": ":xliff:TableForm3Input_Text5"
 				},
 				"Line6": {
 					"type": "line",
@@ -194,7 +194,7 @@
 					"width": 77,
 					"height": 15,
 					"textAlign": "right",
-					"text": "ID : "
+					"text": ":xliff:TableForm3Input_Text7"
 				},
 				"Text8": {
 					"type": "text",
@@ -203,7 +203,7 @@
 					"width": 77,
 					"height": 15,
 					"textAlign": "right",
-					"text": "CountryInfo : "
+					"text": ":xliff:TableForm3Input_Text8"
 				},
 				"ID": {
 					"type": "input",

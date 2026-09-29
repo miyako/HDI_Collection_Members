@@ -178,7 +178,7 @@
 					"height": 17,
 					"sizingX": "grow",
 					"stroke": "automatic",
-					"text": "DICO"
+					"text": ":xliff:TableForm2Input_Text6"
 				},
 				"Line7": {
 					"type": "line",
@@ -327,7 +327,7 @@
 					"width": 73,
 					"height": 17,
 					"textAlign": "right",
-					"text": "ID : "
+					"text": ":xliff:TableForm2Input_Text8"
 				},
 				"Text9": {
 					"type": "text",
@@ -336,7 +336,7 @@
 					"width": 73,
 					"height": 17,
 					"textAlign": "right",
-					"text": "Word : "
+					"text": ":xliff:TableForm2Input_Text9"
 				},
 				"Text10": {
 					"type": "text",
@@ -345,7 +345,7 @@
 					"width": 73,
 					"height": 17,
 					"textAlign": "right",
-					"text": "Definition : "
+					"text": ":xliff:TableForm2Input_Text10"
 				},
 				"Text1": {
 					"type": "text",
@@ -354,7 +354,7 @@
 					"width": 73,
 					"height": 17,
 					"textAlign": "right",
-					"text": "Word : "
+					"text": ":xliff:TableForm2Input_Text1"
 				}
 			}
 		}
