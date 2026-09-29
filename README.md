@@ -41,6 +41,27 @@ A 4D **HDI** (How Do I) example demonstrating the **Collection** object's built-
 1. Open `Project/HDI_Collection_Members.4DProject` in 4D.
 2. Run the `00_Start` method (or use the **File > Demo** menu item) to open the splash screen, then click through to `HDI2` to try each tab.
 
+## Branches
+
+Each branch represents a distinct modernisation effort, guided by a corresponding Copilot instruction file.
+
+| Branch | Description | Instructions |
+|--------|-------------|--------------|
+| [`miyako-new-worktree-session`](../../tree/miyako-new-worktree-session) | Converted the project to modern syntax and UI conventions: XLIFF localisation, `var`/`#DECLARE` variable declarations, menu standard actions, method visibility attributes, a rewritten startup dialog, dark mode/Liquid Glass CSS, and listbox display defaults. | [localisation.instructions.md](.github/instructions/localisation.instructions.md), [variable.declarations.instructions.md](.github/instructions/variable.declarations.instructions.md), [menu.instructions.md](.github/instructions/menu.instructions.md), [method.visibility.instructions.md](.github/instructions/method.visibility.instructions.md), [startup.instructions.md](.github/instructions/startup.instructions.md), [css.instructions.md](.github/instructions/css.instructions.md), [tahoe.css.instructions.md](.github/instructions/tahoe.css.instructions.md), [listbox.instructions.md](.github/instructions/listbox.instructions.md) |
+
+## Copilot Token Usage
+
+Actual per-session token usage, pulled from Copilot session records.
+
+| Session | Branch | Model(s) | Input Tokens | Output Tokens | Turns |
+|---------|--------|----------|-------------:|--------------:|------:|
+| New worktree (README rewrite + full modernisation) | `miyako-new-worktree-session` | Claude Sonnet 5 | 27,966,433 | 123,832 | 4 |
+| **Total** | | | **27,966,433** | **123,832** | **4** |
+
+## Model Selection Assessment
+
+The full modernisation (localisation, variable-declaration migration, menu/method/CSS/listbox conventions, and this README) was carried out in a single Claude Sonnet 5 session spanning 4 turns and ~180 tool calls. The work required cross-referencing several project-specific instruction files simultaneously (token-safety rules, CSS specificity, `#DECLARE` parameter constraints) and repeatedly auditing the whole project rather than a single file, which benefits from a capable model; Sonnet 5 was appropriate here rather than overkill. **Recommendation:** for a repeat of this scope of work, Sonnet 5 in interactive mode remains a good default; plan mode could have caught the `#DECLARE`-with-numbered-parameters mistake earlier had a plan review preceded the bulk method-code migration.
+
 ## References
 
 - **Blog post:** https://blog.4d.com/find-items-in-a-collection/
