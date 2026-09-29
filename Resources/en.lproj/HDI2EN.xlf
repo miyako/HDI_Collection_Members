@@ -1,0 +1,343 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" version="1.2">
+  <file datatype="plaintext" original="Project/Sources/Forms/HDI2/form.4DForm" source-language="en" target-language="en">
+	<body>
+	  <trans-unit id="HDI2_TabInfo" resname="HDI2_TabInfo">
+		<source>Info</source>
+		<target>Info</target>
+	  </trans-unit>
+	  <trans-unit id="HDI2_TabSplit" resname="HDI2_TabSplit">
+		<source>Split</source>
+		<target>Split</target>
+	  </trans-unit>
+	  <trans-unit id="HDI2_TabConversion" resname="HDI2_TabConversion">
+		<source>Conversion</source>
+		<target>Conversion</target>
+	  </trans-unit>
+	  <trans-unit id="HDI2_TabPopulate" resname="HDI2_TabPopulate">
+		<source>Populate</source>
+		<target>Populate</target>
+	  </trans-unit>
+	  <trans-unit id="HDI2_TabMap" resname="HDI2_TabMap">
+		<source>Map</source>
+		<target>Map</target>
+	  </trans-unit>
+	  <trans-unit id="HDI2_TabCalculation" resname="HDI2_TabCalculation">
+		<source>Calculation</source>
+		<target>Calculation</target>
+	  </trans-unit>
+	  <trans-unit id="HDI2_TabInsert" resname="HDI2_TabInsert">
+		<source>Insert</source>
+		<target>Insert</target>
+	  </trans-unit>
+	  <trans-unit id="HDI2_TabExtract" resname="HDI2_TabExtract">
+		<source>Extract</source>
+		<target>Extract</target>
+	  </trans-unit>
+	  <trans-unit id="HDI2_TabFindElements" resname="HDI2_TabFindElements">
+		<source>Find elements</source>
+		<target>Find elements</target>
+	  </trans-unit>
+	  <trans-unit id="HDI2_TabFindIndices" resname="HDI2_TabFindIndices">
+		<source>Find indices</source>
+		<target>Find indices</target>
+	  </trans-unit>
+	  <trans-unit id="HDI2_TabDuplicate" resname="HDI2_TabDuplicate">
+		<source>Duplicate</source>
+		<target>Duplicate</target>
+	  </trans-unit>
+	  <trans-unit id="HDI2_TabConcat" resname="HDI2_TabConcat">
+		<source>Concat</source>
+		<target>Concat</target>
+	  </trans-unit>
+	  <trans-unit id="HDI2_TabOrder" resname="HDI2_TabOrder">
+		<source>Order</source>
+		<target>Order</target>
+	  </trans-unit>
+	  <trans-unit id="HDI2_Button2" resname="HDI2_Button2">
+		<source>Split &gt;&gt;</source>
+		<target>Split &gt;&gt;</target>
+	  </trans-unit>
+	  <trans-unit id="HDI2_Button12" resname="HDI2_Button12">
+		<source>&lt;&lt; Join</source>
+		<target>&lt;&lt; Join</target>
+	  </trans-unit>
+	  <trans-unit id="HDI2_Button13" resname="HDI2_Button13">
+		<source>&lt;= array to collection</source>
+		<target>&lt;= array to collection</target>
+	  </trans-unit>
+	  <trans-unit id="HDI2_Button4" resname="HDI2_Button4">
+		<source>Collection to array =&gt;</source>
+		<target>Collection to array =&gt;</target>
+	  </trans-unit>
+	  <trans-unit id="HDI2_Button23" resname="HDI2_Button23">
+		<source>Send first element to first place  =&gt;</source>
+		<target>Send first element to first place  =&gt;</target>
+	  </trans-unit>
+	  <trans-unit id="HDI2_Button3" resname="HDI2_Button3">
+		<source>Send last left element to last place =&gt;</source>
+		<target>Send last left element to last place =&gt;</target>
+	  </trans-unit>
+	  <trans-unit id="HDI2_Button26" resname="HDI2_Button26">
+		<source>Map numbers =&gt;</source>
+		<target>Map numbers =&gt;</target>
+	  </trans-unit>
+	  <trans-unit id="HDI2_Button17" resname="HDI2_Button17">
+		<source>Remove first element and calculate again</source>
+		<target>Remove first element and calculate again</target>
+	  </trans-unit>
+	  <trans-unit id="HDI2_Button5" resname="HDI2_Button5">
+		<source>Calculate values !</source>
+		<target>Calculate values !</target>
+	  </trans-unit>
+	  <trans-unit id="HDI2_Button16" resname="HDI2_Button16">
+		<source>&lt;= Insert in this collection</source>
+		<target>&lt;= Insert in this collection</target>
+	  </trans-unit>
+	  <trans-unit id="HDI2_Button31" resname="HDI2_Button31">
+		<source>Extract countries list =&gt;</source>
+		<target>Extract countries list =&gt;</target>
+	  </trans-unit>
+	  <trans-unit id="HDI2_Button36" resname="HDI2_Button36">
+		<source>Populate new object collection =&gt;</source>
+		<target>Populate new object collection =&gt;</target>
+	  </trans-unit>
+	  <trans-unit id="HDI2_Button14" resname="HDI2_Button14">
+		<source>Extract =&gt;</source>
+		<target>Extract =&gt;</target>
+	  </trans-unit>
+	  <trans-unit id="HDI2_Button7" resname="HDI2_Button7">
+		<source>First Asian country =&gt;</source>
+		<target>First Asian country =&gt;</target>
+	  </trans-unit>
+	  <trans-unit id="HDI2_Button9" resname="HDI2_Button9">
+		<source>List of Asian countries =&gt;</source>
+		<target>List of Asian countries =&gt;</target>
+	  </trans-unit>
+	  <trans-unit id="HDI2_Button10" resname="HDI2_Button10">
+		<source>Countries with surface &lt; 1000 =&gt;</source>
+		<target>Countries with surface &lt; 1000 =&gt;</target>
+	  </trans-unit>
+	  <trans-unit id="HDI2_Button19" resname="HDI2_Button19">
+		<source>Index of first Asian country</source>
+		<target>Index of first Asian country</target>
+	  </trans-unit>
+	  <trans-unit id="HDI2_Button21" resname="HDI2_Button21">
+		<source>Indices of countries with surface &lt; 1000 =&gt;</source>
+		<target>Indices of countries with surface &lt; 1000 =&gt;</target>
+	  </trans-unit>
+	  <trans-unit id="HDI2_Button1" resname="HDI2_Button1">
+		<source>Search index of first null</source>
+		<target>Search index of first null</target>
+	  </trans-unit>
+	  <trans-unit id="HDI2_Button6" resname="HDI2_Button6">
+		<source>Count values not null</source>
+		<target>Count values not null</target>
+	  </trans-unit>
+	  <trans-unit id="HDI2_Button40" resname="HDI2_Button40">
+		<source>Search index of last null</source>
+		<target>Search index of last null</target>
+	  </trans-unit>
+	  <trans-unit id="HDI2_Button8" resname="HDI2_Button8">
+		<source>Count values = 5</source>
+		<target>Count values = 5</target>
+	  </trans-unit>
+	  <trans-unit id="HDI2_Button24" resname="HDI2_Button24">
+		<source>Length</source>
+		<target>Length</target>
+	  </trans-unit>
+	  <trans-unit id="HDI2_Button28" resname="HDI2_Button28">
+		<source>Deep copy** =&gt;</source>
+		<target>Deep copy** =&gt;</target>
+	  </trans-unit>
+	  <trans-unit id="HDI2_Button30" resname="HDI2_Button30">
+		<source>Collection with distinct values =&gt;</source>
+		<target>Collection with distinct values =&gt;</target>
+	  </trans-unit>
+	  <trans-unit id="HDI2_Button32" resname="HDI2_Button32">
+		<source>First 10 elements =&gt;</source>
+		<target>First 10 elements =&gt;</target>
+	  </trans-unit>
+	  <trans-unit id="HDI2_Button18" resname="HDI2_Button18">
+		<source>Check equality</source>
+		<target>Check equality</target>
+	  </trans-unit>
+	  <trans-unit id="HDI2_Button34" resname="HDI2_Button34">
+		<source>Concat =&gt;</source>
+		<target>Concat =&gt;</target>
+	  </trans-unit>
+	  <trans-unit id="HDI2_Button33" resname="HDI2_Button33">
+		<source>Collection1 =&gt;</source>
+		<target>Collection1 =&gt;</target>
+	  </trans-unit>
+	  <trans-unit id="HDI2_Button35" resname="HDI2_Button35">
+		<source>Collection2 =&gt;</source>
+		<target>Collection2 =&gt;</target>
+	  </trans-unit>
+	  <trans-unit id="HDI2_Button20" resname="HDI2_Button20">
+		<source>All values &gt;= 100</source>
+		<target>All values &gt;= 100</target>
+	  </trans-unit>
+	  <trans-unit id="HDI2_Button22" resname="HDI2_Button22">
+		<source>At least one value &gt;=100</source>
+		<target>At least one value &gt;=100</target>
+	  </trans-unit>
+	  <trans-unit id="HDI2_Button15" resname="HDI2_Button15">
+		<source>Ascending order</source>
+		<target>Ascending order</target>
+	  </trans-unit>
+	  <trans-unit id="HDI2_Button25" resname="HDI2_Button25">
+		<source>Reverse  collection</source>
+		<target>Reverse  collection</target>
+	  </trans-unit>
+	  <trans-unit id="HDI2_Button11" resname="HDI2_Button11">
+		<source>Descending order</source>
+		<target>Descending order</target>
+	  </trans-unit>
+	  <trans-unit id="HDI2_Button27" resname="HDI2_Button27">
+		<source>Custom order: by word length</source>
+		<target>Custom order: by word length</target>
+	  </trans-unit>
+	  <trans-unit id="HDI2_Text8" resname="HDI2_Text8">
+		<source>CountriesCSV</source>
+		<target>CountriesCSV</target>
+	  </trans-unit>
+	  <trans-unit id="HDI2_Text9" resname="HDI2_Text9">
+		<source>CountriesSplit</source>
+		<target>CountriesSplit</target>
+	  </trans-unit>
+	  <trans-unit id="HDI2_Text6" resname="HDI2_Text6">
+		<source>CountriesObj</source>
+		<target>CountriesObj</target>
+	  </trans-unit>
+	  <trans-unit id="HDI2_Text4" resname="HDI2_Text4">
+		<source>Countries</source>
+		<target>Countries</target>
+	  </trans-unit>
+	  <trans-unit id="HDI2_Text5" resname="HDI2_Text5">
+		<source>CountriesCopy</source>
+		<target>CountriesCopy</target>
+	  </trans-unit>
+	  <trans-unit id="HDI2_Text2" resname="HDI2_Text2">
+		<source>Numbers</source>
+		<target>Numbers</target>
+	  </trans-unit>
+	  <trans-unit id="HDI2_Text3" resname="HDI2_Text3">
+		<source>Doubles</source>
+		<target>Doubles</target>
+	  </trans-unit>
+	  <trans-unit id="HDI2_Text10" resname="HDI2_Text10">
+		<source>PricesList</source>
+		<target>PricesList</target>
+	  </trans-unit>
+	  <trans-unit id="HDI2_Text11" resname="HDI2_Text11">
+		<source>Average purchase price:</source>
+		<target>Average purchase price:</target>
+	  </trans-unit>
+	  <trans-unit id="HDI2_Text12" resname="HDI2_Text12">
+		<source>Purchase price min:</source>
+		<target>Purchase price min:</target>
+	  </trans-unit>
+	  <trans-unit id="HDI2_Text13" resname="HDI2_Text13">
+		<source>Total purchase price:</source>
+		<target>Total purchase price:</target>
+	  </trans-unit>
+	  <trans-unit id="HDI2_Text14" resname="HDI2_Text14">
+		<source>Purchase price max:</source>
+		<target>Purchase price max:</target>
+	  </trans-unit>
+	  <trans-unit id="HDI2_Text15" resname="HDI2_Text15">
+		<source>Total Price Excl Tax:</source>
+		<target>Total Price Excl Tax:</target>
+	  </trans-unit>
+	  <trans-unit id="HDI2_Text" resname="HDI2_Text">
+		<source>Value to insert:</source>
+		<target>Value to insert:</target>
+	  </trans-unit>
+	  <trans-unit id="HDI2_Text1" resname="HDI2_Text1">
+		<source>Row number:</source>
+		<target>Row number:</target>
+	  </trans-unit>
+	  <trans-unit id="HDI2_Text21" resname="HDI2_Text21">
+		<source>Countries</source>
+		<target>Countries</target>
+	  </trans-unit>
+	  <trans-unit id="HDI2_Text17" resname="HDI2_Text17">
+		<source>CountriesObj</source>
+		<target>CountriesObj</target>
+	  </trans-unit>
+	  <trans-unit id="HDI2_Text32" resname="HDI2_Text32">
+		<source>FindRes</source>
+		<target>FindRes</target>
+	  </trans-unit>
+	  <trans-unit id="HDI2_Text7" resname="HDI2_Text7">
+		<source>Enter a property to extract:</source>
+		<target>Enter a property to extract:</target>
+	  </trans-unit>
+	  <trans-unit id="HDI2_Text22" resname="HDI2_Text22">
+		<source>CountriesObj</source>
+		<target>CountriesObj</target>
+	  </trans-unit>
+	  <trans-unit id="HDI2_Text23" resname="HDI2_Text23">
+		<source>FindRes</source>
+		<target>FindRes</target>
+	  </trans-unit>
+	  <trans-unit id="HDI2_Text24" resname="HDI2_Text24">
+		<source>CountriesObj</source>
+		<target>CountriesObj</target>
+	  </trans-unit>
+	  <trans-unit id="HDI2_Text25" resname="HDI2_Text25">
+		<source>TypeMix</source>
+		<target>TypeMix</target>
+	  </trans-unit>
+	  <trans-unit id="HDI2_Text26" resname="HDI2_Text26">
+		<source>FindRes</source>
+		<target>FindRes</target>
+	  </trans-unit>
+	  <trans-unit id="HDI2_Text27" resname="HDI2_Text27">
+		<source>PricesWithNull</source>
+		<target>PricesWithNull</target>
+	  </trans-unit>
+	  <trans-unit id="HDI2_Text28" resname="HDI2_Text28">
+		<source>ValRes</source>
+		<target>ValRes</target>
+	  </trans-unit>
+	  <trans-unit id="HDI2_Text18" resname="HDI2_Text18">
+		<source>Coll1</source>
+		<target>Coll1</target>
+	  </trans-unit>
+	  <trans-unit id="HDI2_Text19" resname="HDI2_Text19">
+		<source>Coll2</source>
+		<target>Coll2</target>
+	  </trans-unit>
+	  <trans-unit id="HDI2_Text29" resname="HDI2_Text29">
+		<source>ValRes</source>
+		<target>ValRes</target>
+	  </trans-unit>
+	  <trans-unit id="HDI2_Text30" resname="HDI2_Text30">
+		<source>CountriesWithNull</source>
+		<target>CountriesWithNull</target>
+	  </trans-unit>
+	  <trans-unit id="HDI2_Text31" resname="HDI2_Text31">
+		<source>ValRes</source>
+		<target>ValRes</target>
+	  </trans-unit>
+	  <trans-unit id="HDI2_Header_ISO_3166_1" resname="HDI2_Header_ISO_3166_1">
+		<source>ISO 2</source>
+		<target>ISO 2</target>
+	  </trans-unit>
+	  <trans-unit id="HDI2_Header_Country" resname="HDI2_Header_Country">
+		<source>Country</source>
+		<target>Country</target>
+	  </trans-unit>
+	  <trans-unit id="HDI2_Header_Surface" resname="HDI2_Header_Surface">
+		<source>Surface</source>
+		<target>Surface</target>
+	  </trans-unit>
+	  <trans-unit id="HDI2_Header_Continent" resname="HDI2_Header_Continent">
+		<source>Continent</source>
+		<target>Continent</target>
+	  </trans-unit>
+	</body>
+  </file>
+</xliff>

@@ -33,19 +33,19 @@
 					"sizingY": "grow",
 					"dataSourceTypeHint": "arrayText",
 					"labels": [
-						"Info",
-						"Split",
-						"Conversion",
-						"Populate",
-						"Map",
-						"Calculation",
-						"Insert",
-						"Extract",
-						"Find elements",
-						"Find indices",
-						"Duplicate",
-						"Concat",
-						"Order"
+						":xliff:HDI2_TabInfo",
+						":xliff:HDI2_TabSplit",
+						":xliff:HDI2_TabConversion",
+						":xliff:HDI2_TabPopulate",
+						":xliff:HDI2_TabMap",
+						":xliff:HDI2_TabCalculation",
+						":xliff:HDI2_TabInsert",
+						":xliff:HDI2_TabExtract",
+						":xliff:HDI2_TabFindElements",
+						":xliff:HDI2_TabFindIndices",
+						":xliff:HDI2_TabDuplicate",
+						":xliff:HDI2_TabConcat",
+						":xliff:HDI2_TabOrder"
 					],
 					"action": "gotoPage",
 					"events": [
@@ -134,7 +134,7 @@
 					"top": 240,
 					"left": 440,
 					"width": 280,
-					"text": "Split >>",
+					"text": ":xliff:HDI2_Button2",
 					"focusable": false,
 					"method": "ObjectMethods/Button2.4dm",
 					"events": [
@@ -147,7 +147,7 @@
 					"top": 360,
 					"left": 440,
 					"width": 280,
-					"text": "<< Join",
+					"text": ":xliff:HDI2_Button12",
 					"focusable": false,
 					"method": "ObjectMethods/Button12.4dm",
 					"events": [
@@ -199,7 +199,7 @@
 					"width": 380,
 					"height": 15,
 					"textAlign": "right",
-					"text": "CountriesCSV",
+					"text": ":xliff:HDI2_Text8",
 					"class": "muted-text"
 				},
 				"Text9": {
@@ -210,7 +210,7 @@
 					"height": 15,
 					"sizingX": "move",
 					"textAlign": "right",
-					"text": "CountriesSplit",
+					"text": ":xliff:HDI2_Text9",
 					"class": "muted-text"
 				}
 			}
@@ -222,7 +222,7 @@
 					"top": 360,
 					"left": 440,
 					"width": 200,
-					"text": "<= array to collection",
+					"text": ":xliff:HDI2_Button13",
 					"focusable": false,
 					"method": "ObjectMethods/Button13.4dm",
 					"events": [
@@ -250,7 +250,7 @@
 					"top": 240,
 					"left": 440,
 					"width": 200,
-					"text": "Collection to array =>",
+					"text": ":xliff:HDI2_Button4",
 					"focusable": false,
 					"method": "ObjectMethods/Button4.4dm",
 					"events": [
@@ -291,7 +291,7 @@
 							],
 							"header": {
 								"name": "Header2",
-								"text": "ISO 2",
+								"text": ":xliff:HDI2_Header_ISO_3166_1",
 								"stroke": "automatic",
 								"textAlign": "automatic",
 								"verticalAlign": "automatic"
@@ -322,7 +322,7 @@
 							],
 							"header": {
 								"name": "Header3",
-								"text": "Country",
+								"text": ":xliff:HDI2_Header_Country",
 								"stroke": "automatic",
 								"textAlign": "automatic",
 								"verticalAlign": "automatic"
@@ -353,7 +353,7 @@
 							],
 							"header": {
 								"name": "Header4",
-								"text": "Surface",
+								"text": ":xliff:HDI2_Header_Surface",
 								"stroke": "automatic",
 								"textAlign": "automatic",
 								"verticalAlign": "automatic"
@@ -384,7 +384,7 @@
 							],
 							"header": {
 								"name": "Header6",
-								"text": "Continent",
+								"text": ":xliff:HDI2_Header_Continent",
 								"stroke": "automatic",
 								"textAlign": "automatic",
 								"verticalAlign": "automatic"
@@ -427,7 +427,7 @@
 					"width": 380,
 					"height": 15,
 					"textAlign": "right",
-					"text": "CountriesObj",
+					"text": ":xliff:HDI2_Text6",
 					"class": "muted-text"
 				}
 			}
@@ -473,7 +473,7 @@
 					"top": 240,
 					"left": 380,
 					"width": 400,
-					"text": "Send first element to first place  =>",
+					"text": ":xliff:HDI2_Button23",
 					"focusable": false,
 					"method": "ObjectMethods/Button23.4dm",
 					"events": [
@@ -486,7 +486,7 @@
 					"top": 480,
 					"left": 380,
 					"width": 400,
-					"text": "Send last left element to last place =>",
+					"text": ":xliff:HDI2_Button3",
 					"focusable": false,
 					"method": "ObjectMethods/Button3.4dm",
 					"events": [
@@ -541,7 +541,7 @@
 					"width": 320,
 					"height": 15,
 					"textAlign": "right",
-					"text": "Countries",
+					"text": ":xliff:HDI2_Text4",
 					"class": "muted-text"
 				},
 				"Text5": {
@@ -551,7 +551,7 @@
 					"width": 320,
 					"height": 15,
 					"textAlign": "right",
-					"text": "CountriesCopy",
+					"text": ":xliff:HDI2_Text5",
 					"class": "muted-text"
 				},
 				"Variable60": {
@@ -625,7 +625,7 @@
 					"left": 420,
 					"width": 320,
 					"dataSource": "Button",
-					"text": "Map numbers =>",
+					"text": ":xliff:HDI2_Button26",
 					"focusable": false,
 					"method": "ObjectMethods/Button26.4dm",
 					"events": [
@@ -660,7 +660,7 @@
 					"width": 320,
 					"height": 15,
 					"textAlign": "right",
-					"text": "Numbers",
+					"text": ":xliff:HDI2_Text2",
 					"class": "muted-text"
 				},
 				"Text3": {
@@ -670,7 +670,7 @@
 					"width": 320,
 					"height": 15,
 					"textAlign": "right",
-					"text": "Doubles",
+					"text": ":xliff:HDI2_Text3",
 					"class": "muted-text"
 				},
 				"Variable59": {
@@ -800,7 +800,7 @@
 					"left": 420,
 					"width": 320,
 					"dataSource": "Button",
-					"text": "Remove first element and calculate again",
+					"text": ":xliff:HDI2_Button17",
 					"focusable": false,
 					"method": "ObjectMethods/Button17.4dm",
 					"events": [
@@ -915,7 +915,7 @@
 					"width": 280,
 					"height": 15,
 					"textAlign": "right",
-					"text": "PricesList",
+					"text": ":xliff:HDI2_Text10",
 					"class": "muted-text"
 				},
 				"Variable27": {
@@ -945,7 +945,7 @@
 					"width": 180,
 					"height": 15,
 					"textAlign": "right",
-					"text": "Average purchase price:"
+					"text": ":xliff:HDI2_Text11"
 				},
 				"Text12": {
 					"type": "text",
@@ -954,7 +954,7 @@
 					"width": 180,
 					"height": 15,
 					"textAlign": "right",
-					"text": "Purchase price min:"
+					"text": ":xliff:HDI2_Text12"
 				},
 				"Text13": {
 					"type": "text",
@@ -963,7 +963,7 @@
 					"width": 180,
 					"height": 15,
 					"textAlign": "right",
-					"text": "Total purchase price:"
+					"text": ":xliff:HDI2_Text13"
 				},
 				"Text14": {
 					"type": "text",
@@ -972,7 +972,7 @@
 					"width": 180,
 					"height": 15,
 					"textAlign": "right",
-					"text": "Purchase price max:"
+					"text": ":xliff:HDI2_Text14"
 				},
 				"Text15": {
 					"type": "text",
@@ -981,7 +981,7 @@
 					"width": 180,
 					"height": 15,
 					"textAlign": "right",
-					"text": "Total Price Excl Tax:"
+					"text": ":xliff:HDI2_Text15"
 				},
 				"Variable9": {
 					"type": "input",
@@ -1029,7 +1029,7 @@
 					"left": 420,
 					"width": 320,
 					"dataSource": "Button",
-					"text": "Calculate values !",
+					"text": ":xliff:HDI2_Button5",
 					"focusable": false,
 					"method": "ObjectMethods/Button5.4dm",
 					"events": [
@@ -1069,7 +1069,7 @@
 					"width": 130,
 					"height": 17,
 					"textAlign": "right",
-					"text": "Value to insert:"
+					"text": ":xliff:HDI2_Text"
 				},
 				"Text1": {
 					"type": "text",
@@ -1078,7 +1078,7 @@
 					"width": 130,
 					"height": 17,
 					"textAlign": "right",
-					"text": "Row number:"
+					"text": ":xliff:HDI2_Text1"
 				},
 				"Variable1": {
 					"type": "input",
@@ -1159,7 +1159,7 @@
 					"width": 320,
 					"height": 15,
 					"textAlign": "right",
-					"text": "Countries",
+					"text": ":xliff:HDI2_Text21",
 					"class": "muted-text"
 				},
 				"Button16": {
@@ -1168,7 +1168,7 @@
 					"left": 380,
 					"width": 240,
 					"dataSource": "Button",
-					"text": "<= Insert in this collection",
+					"text": ":xliff:HDI2_Button16",
 					"focusable": false,
 					"method": "ObjectMethods/Button16.4dm",
 					"events": [
@@ -1219,7 +1219,7 @@
 					"top": 240,
 					"left": 420,
 					"width": 320,
-					"text": "Extract countries list =>",
+					"text": ":xliff:HDI2_Button31",
 					"focusable": false,
 					"method": "ObjectMethods/Button31.4dm",
 					"events": [
@@ -1232,7 +1232,7 @@
 					"top": 480,
 					"left": 420,
 					"width": 320,
-					"text": "Populate new object collection =>",
+					"text": ":xliff:HDI2_Button36",
 					"focusable": false,
 					"method": "ObjectMethods/Button36.4dm",
 					"events": [
@@ -1307,7 +1307,7 @@
 					"width": 280,
 					"height": 15,
 					"textAlign": "right",
-					"text": "CountriesObj",
+					"text": ":xliff:HDI2_Text17",
 					"class": "muted-text"
 				},
 				"Text32": {
@@ -1317,7 +1317,7 @@
 					"width": 280,
 					"height": 15,
 					"textAlign": "right",
-					"text": "FindRes",
+					"text": ":xliff:HDI2_Text32",
 					"class": "muted-text"
 				},
 				"Line17": {
@@ -1341,7 +1341,7 @@
 					"width": 150,
 					"height": 16,
 					"textAlign": "right",
-					"text": "Enter a property to extract:"
+					"text": ":xliff:HDI2_Text7"
 				},
 				"Variable50": {
 					"type": "input",
@@ -1361,7 +1361,7 @@
 					"top": 390,
 					"left": 420,
 					"width": 320,
-					"text": "Extract =>",
+					"text": ":xliff:HDI2_Button14",
 					"focusable": false,
 					"method": "ObjectMethods/Button14.4dm",
 					"events": [
@@ -1412,7 +1412,7 @@
 					"top": 240,
 					"left": 420,
 					"width": 320,
-					"text": "First Asian country =>",
+					"text": ":xliff:HDI2_Button7",
 					"focusable": false,
 					"method": "ObjectMethods/Button7.4dm",
 					"events": [
@@ -1425,7 +1425,7 @@
 					"top": 360,
 					"left": 420,
 					"width": 320,
-					"text": "List of Asian countries =>",
+					"text": ":xliff:HDI2_Button9",
 					"focusable": false,
 					"method": "ObjectMethods/Button9.4dm",
 					"events": [
@@ -1438,7 +1438,7 @@
 					"top": 480,
 					"left": 420,
 					"width": 320,
-					"text": "Countries with surface < 1000 =>",
+					"text": ":xliff:HDI2_Button10",
 					"focusable": false,
 					"method": "ObjectMethods/Button10.4dm",
 					"events": [
@@ -1533,7 +1533,7 @@
 					"width": 280,
 					"height": 15,
 					"textAlign": "right",
-					"text": "CountriesObj",
+					"text": ":xliff:HDI2_Text22",
 					"class": "muted-text"
 				},
 				"Text23": {
@@ -1543,7 +1543,7 @@
 					"width": 280,
 					"height": 15,
 					"textAlign": "right",
-					"text": "FindRes",
+					"text": ":xliff:HDI2_Text23",
 					"class": "muted-text"
 				},
 				"Line7": {
@@ -1603,7 +1603,7 @@
 					"top": 257,
 					"left": 420,
 					"width": 220,
-					"text": "Index of first Asian country",
+					"text": ":xliff:HDI2_Button19",
 					"focusable": false,
 					"method": "ObjectMethods/Button19.4dm",
 					"events": [
@@ -1616,7 +1616,7 @@
 					"top": 317,
 					"left": 420,
 					"width": 307,
-					"text": "Indices of countries with surface < 1000 =>",
+					"text": ":xliff:HDI2_Button21",
 					"focusable": false,
 					"method": "ObjectMethods/Button21.4dm",
 					"events": [
@@ -1722,7 +1722,7 @@
 					"top": 495,
 					"left": 420,
 					"width": 189,
-					"text": "Search index of first null",
+					"text": ":xliff:HDI2_Button1",
 					"focusable": false,
 					"method": "ObjectMethods/Button1.4dm",
 					"events": [
@@ -1735,7 +1735,7 @@
 					"top": 571,
 					"left": 420,
 					"width": 189,
-					"text": "Count values not null",
+					"text": ":xliff:HDI2_Button6",
 					"focusable": false,
 					"method": "ObjectMethods/Button6.4dm",
 					"events": [
@@ -1748,7 +1748,7 @@
 					"top": 533,
 					"left": 420,
 					"width": 189,
-					"text": "Search index of last null",
+					"text": ":xliff:HDI2_Button40",
 					"focusable": false,
 					"method": "ObjectMethods/Button40.4dm",
 					"events": [
@@ -1869,7 +1869,7 @@
 					"top": 647,
 					"left": 420,
 					"width": 189,
-					"text": "Count values = 5",
+					"text": ":xliff:HDI2_Button8",
 					"focusable": false,
 					"method": "ObjectMethods/Button8.4dm",
 					"events": [
@@ -1960,7 +1960,7 @@
 					"width": 280,
 					"height": 15,
 					"textAlign": "right",
-					"text": "CountriesObj",
+					"text": ":xliff:HDI2_Text24",
 					"class": "muted-text"
 				},
 				"Text25": {
@@ -1970,7 +1970,7 @@
 					"width": 280,
 					"height": 15,
 					"textAlign": "right",
-					"text": "TypeMix",
+					"text": ":xliff:HDI2_Text25",
 					"class": "muted-text"
 				},
 				"Text26": {
@@ -1980,7 +1980,7 @@
 					"width": 280,
 					"height": 15,
 					"textAlign": "right",
-					"text": "FindRes",
+					"text": ":xliff:HDI2_Text26",
 					"class": "muted-text"
 				},
 				"Line10": {
@@ -1995,7 +1995,7 @@
 					"top": 609,
 					"left": 420,
 					"width": 189,
-					"text": "Length",
+					"text": ":xliff:HDI2_Button24",
 					"focusable": false,
 					"method": "ObjectMethods/Button24.4dm",
 					"events": [
@@ -2082,7 +2082,7 @@
 					"top": 240,
 					"left": 420,
 					"width": 320,
-					"text": "Deep copy** =>",
+					"text": ":xliff:HDI2_Button28",
 					"focusable": false,
 					"method": "ObjectMethods/Button28.4dm",
 					"events": [
@@ -2095,7 +2095,7 @@
 					"top": 480,
 					"left": 420,
 					"width": 320,
-					"text": "Collection with distinct values =>",
+					"text": ":xliff:HDI2_Button30",
 					"focusable": false,
 					"method": "ObjectMethods/Button30.4dm",
 					"events": [
@@ -2127,7 +2127,7 @@
 					"top": 360,
 					"left": 420,
 					"width": 320,
-					"text": "First 10 elements =>",
+					"text": ":xliff:HDI2_Button32",
 					"focusable": false,
 					"method": "ObjectMethods/Button32.4dm",
 					"events": [
@@ -2242,7 +2242,7 @@
 					"width": 280,
 					"height": 15,
 					"textAlign": "right",
-					"text": "PricesWithNull",
+					"text": ":xliff:HDI2_Text27",
 					"class": "muted-text"
 				},
 				"Text28": {
@@ -2252,7 +2252,7 @@
 					"width": 280,
 					"height": 15,
 					"textAlign": "right",
-					"text": "ValRes",
+					"text": ":xliff:HDI2_Text28",
 					"class": "muted-text"
 				},
 				"Line4": {
@@ -2281,7 +2281,7 @@
 					"top": 600,
 					"left": 420,
 					"width": 210,
-					"text": "Check equality",
+					"text": ":xliff:HDI2_Button18",
 					"focusable": false,
 					"method": "ObjectMethods/Button18.4dm",
 					"events": [
@@ -2349,7 +2349,7 @@
 					"top": 430,
 					"left": 360,
 					"width": 180,
-					"text": "Concat =>",
+					"text": ":xliff:HDI2_Button34",
 					"focusable": false,
 					"method": "ObjectMethods/Button34.4dm",
 					"events": [
@@ -2362,7 +2362,7 @@
 					"top": 360,
 					"left": 360,
 					"width": 180,
-					"text": "Collection1 =>",
+					"text": ":xliff:HDI2_Button33",
 					"focusable": false,
 					"method": "ObjectMethods/Button33.4dm",
 					"events": [
@@ -2375,7 +2375,7 @@
 					"top": 395,
 					"left": 360,
 					"width": 180,
-					"text": "Collection2 =>",
+					"text": ":xliff:HDI2_Button35",
 					"focusable": false,
 					"method": "ObjectMethods/Button35.4dm",
 					"events": [
@@ -2544,7 +2544,7 @@
 					"width": 280,
 					"height": 15,
 					"textAlign": "right",
-					"text": "Coll1",
+					"text": ":xliff:HDI2_Text18",
 					"class": "muted-text"
 				},
 				"Text19": {
@@ -2554,7 +2554,7 @@
 					"width": 280,
 					"height": 15,
 					"textAlign": "right",
-					"text": "Coll2",
+					"text": ":xliff:HDI2_Text19",
 					"class": "muted-text"
 				},
 				"Text29": {
@@ -2564,7 +2564,7 @@
 					"width": 240,
 					"height": 15,
 					"textAlign": "right",
-					"text": "ValRes",
+					"text": ":xliff:HDI2_Text29",
 					"class": "muted-text"
 				},
 				"Line13": {
@@ -2579,7 +2579,7 @@
 					"top": 321,
 					"left": 860,
 					"width": 153,
-					"text": "All values >= 100",
+					"text": ":xliff:HDI2_Button20",
 					"focusable": false,
 					"method": "ObjectMethods/Button20.4dm",
 					"events": [
@@ -2592,7 +2592,7 @@
 					"top": 562,
 					"left": 860,
 					"width": 153,
-					"text": "At least one value >=100",
+					"text": ":xliff:HDI2_Button22",
 					"focusable": false,
 					"method": "ObjectMethods/Button22.4dm",
 					"events": [
@@ -2610,7 +2610,7 @@
 					"left": 420,
 					"width": 320,
 					"dataSource": "Button",
-					"text": "Ascending order",
+					"text": ":xliff:HDI2_Button15",
 					"focusable": false,
 					"method": "ObjectMethods/Button15.4dm",
 					"events": [
@@ -2644,7 +2644,7 @@
 					"left": 420,
 					"width": 320,
 					"dataSource": "Button",
-					"text": "Reverse  collection",
+					"text": ":xliff:HDI2_Button25",
 					"focusable": false,
 					"method": "ObjectMethods/Button25.4dm",
 					"events": [
@@ -2712,7 +2712,7 @@
 					"left": 420,
 					"width": 320,
 					"dataSource": "Button",
-					"text": "Descending order",
+					"text": ":xliff:HDI2_Button11",
 					"focusable": false,
 					"method": "ObjectMethods/Button11.4dm",
 					"events": [
@@ -2747,7 +2747,7 @@
 					"width": 280,
 					"height": 15,
 					"textAlign": "right",
-					"text": "CountriesWithNull",
+					"text": ":xliff:HDI2_Text30",
 					"class": "muted-text"
 				},
 				"Text31": {
@@ -2757,7 +2757,7 @@
 					"width": 280,
 					"height": 15,
 					"textAlign": "right",
-					"text": "ValRes",
+					"text": ":xliff:HDI2_Text31",
 					"class": "muted-text"
 				},
 				"Variable58": {
@@ -2807,7 +2807,7 @@
 					"left": 420,
 					"width": 320,
 					"dataSource": "Button",
-					"text": "Custom order: by word length",
+					"text": ":xliff:HDI2_Button27",
 					"focusable": false,
 					"method": "ObjectMethods/Button27.4dm",
 					"events": [

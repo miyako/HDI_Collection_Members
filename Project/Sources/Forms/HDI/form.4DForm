@@ -61,7 +61,7 @@
 					"width": 90,
 					"action": "Accept",
 					"shortcutKey": "[Return]",
-					"text": "Demo",
+					"text": ":xliff:HDI_BtnDemo",
 					"class": "default",
 					"focusable": false,
 					"defaultButton": true,
@@ -94,7 +94,7 @@
 					"left": 130,
 					"width": 300,
 					"height": 17,
-					"text": "{version} and above",
+					"text": ":xliff:HDI_VersionAndAbove",
 					"class": "muted-text"
 				},
 				"labelVersion": {
@@ -106,7 +106,7 @@
 					"stroke": "automatic",
 					"textAlign": "right",
 					"fontWeight": "bold",
-					"text": "Version:"
+					"text": ":xliff:HDI_LabelVersion"
 				},
 				"labelBlog": {
 					"type": "text",
@@ -117,7 +117,7 @@
 					"stroke": "automatic",
 					"textAlign": "right",
 					"fontWeight": "bold",
-					"text": "Blog:"
+					"text": ":xliff:HDI_LabelBlog"
 				},
 				"labelInfo": {
 					"type": "text",
@@ -128,7 +128,7 @@
 					"stroke": "automatic",
 					"textAlign": "right",
 					"fontWeight": "bold",
-					"text": "Info:"
+					"text": ":xliff:HDI_LabelInfo"
 				},
 				"txtBlog": {
 					"type": "input",
@@ -187,7 +187,7 @@
 					"textAlign": "left",
 					"fontFamily": "System Font",
 					"fontSize": 18,
-					"text": "• title •"
+					"text": ":xliff:HDI_TitlePlaceholder"
 				},
 				"Text": {
 					"type": "text",
@@ -199,7 +199,7 @@
 					"textAlign": "left",
 					"fontFamily": "System Font",
 					"fontSize": 30,
-					"text": "How do I…"
+					"text": ":xliff:HDI_HowDoI"
 				},
 				"White90": {
 					"type": "picture",
@@ -220,7 +220,7 @@
 					"visibility": "hidden",
 					"textAlign": "center",
 					"fontTheme": "main",
-					"text": "Sorry, this \"How do I\" (HDI) example must\rbe used with a newer version of 4D\r({version} and above)"
+					"text": ":xliff:HDI_ErrorVersionMain"
 				},
 				"ErrorSubText": {
 					"type": "text",
@@ -230,7 +230,7 @@
 					"height": 80,
 					"visibility": "hidden",
 					"textAlign": "center",
-					"text": "Do not attempt to open this HDI in design mode using this version; if you do so, forms and/or methods could be altered because of missing functionality."
+					"text": ":xliff:HDI_ErrorVersionSub"
 				}
 			}
 		}
