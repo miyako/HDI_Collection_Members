@@ -1,0 +1,58 @@
+/* Cross-platform dark mode support.
+   Automatic color values (fill: automatic / stroke: automatic /
+   alternateFill: automaticAlternate) are set directly on form objects
+   in the .4DForm JSON and require no CSS. This file defines light/dark
+   variants for the project's brand/decorative colors, which cannot use
+   "automatic" because they are not simple foreground/background values. */
+
+@media (prefers-color-scheme: light) {
+	.muted-text {
+		stroke: #696969;
+	}
+
+	.panel-grey {
+		fill: #C0C0C0;
+	}
+
+	.link-text {
+		stroke: #1E90FF;
+	}
+
+	.divider-purple {
+		stroke: #9400D3;
+	}
+
+	.divider-pink {
+		stroke: #DA70D6;
+	}
+
+	.divider-grey {
+		stroke: #A8A8A8;
+	}
+}
+
+@media (prefers-color-scheme: dark) {
+	.muted-text {
+		stroke: #A0A0A0;
+	}
+
+	.panel-grey {
+		fill: #3A3A3A;
+	}
+
+	.link-text {
+		stroke: #5CB8FF;
+	}
+
+	.divider-purple {
+		stroke: #C77DFF;
+	}
+
+	.divider-pink {
+		stroke: #B565A7;
+	}
+
+	.divider-grey {
+		stroke: #5A5A5A;
+	}
+}

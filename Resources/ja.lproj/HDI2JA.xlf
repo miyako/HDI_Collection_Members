@@ -1,0 +1,343 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" version="1.2">
+  <file datatype="plaintext" original="Project/Sources/Forms/HDI2/form.4DForm" source-language="en" target-language="ja">
+	<body>
+	  <trans-unit id="HDI2_TabInfo" resname="HDI2_TabInfo">
+		<source>Info</source>
+		<target>情報</target>
+	  </trans-unit>
+	  <trans-unit id="HDI2_TabSplit" resname="HDI2_TabSplit">
+		<source>Split</source>
+		<target>分割</target>
+	  </trans-unit>
+	  <trans-unit id="HDI2_TabConversion" resname="HDI2_TabConversion">
+		<source>Conversion</source>
+		<target>変換</target>
+	  </trans-unit>
+	  <trans-unit id="HDI2_TabPopulate" resname="HDI2_TabPopulate">
+		<source>Populate</source>
+		<target>生成</target>
+	  </trans-unit>
+	  <trans-unit id="HDI2_TabMap" resname="HDI2_TabMap">
+		<source>Map</source>
+		<target>マップ</target>
+	  </trans-unit>
+	  <trans-unit id="HDI2_TabCalculation" resname="HDI2_TabCalculation">
+		<source>Calculation</source>
+		<target>計算</target>
+	  </trans-unit>
+	  <trans-unit id="HDI2_TabInsert" resname="HDI2_TabInsert">
+		<source>Insert</source>
+		<target>挿入</target>
+	  </trans-unit>
+	  <trans-unit id="HDI2_TabExtract" resname="HDI2_TabExtract">
+		<source>Extract</source>
+		<target>抽出</target>
+	  </trans-unit>
+	  <trans-unit id="HDI2_TabFindElements" resname="HDI2_TabFindElements">
+		<source>Find elements</source>
+		<target>要素の検索</target>
+	  </trans-unit>
+	  <trans-unit id="HDI2_TabFindIndices" resname="HDI2_TabFindIndices">
+		<source>Find indices</source>
+		<target>インデックスの検索</target>
+	  </trans-unit>
+	  <trans-unit id="HDI2_TabDuplicate" resname="HDI2_TabDuplicate">
+		<source>Duplicate</source>
+		<target>複製</target>
+	  </trans-unit>
+	  <trans-unit id="HDI2_TabConcat" resname="HDI2_TabConcat">
+		<source>Concat</source>
+		<target>連結</target>
+	  </trans-unit>
+	  <trans-unit id="HDI2_TabOrder" resname="HDI2_TabOrder">
+		<source>Order</source>
+		<target>並び替え</target>
+	  </trans-unit>
+	  <trans-unit id="HDI2_Button2" resname="HDI2_Button2">
+		<source>Split &gt;&gt;</source>
+		<target>分割 &gt;&gt;</target>
+	  </trans-unit>
+	  <trans-unit id="HDI2_Button12" resname="HDI2_Button12">
+		<source>&lt;&lt; Join</source>
+		<target>&lt;&lt; 結合</target>
+	  </trans-unit>
+	  <trans-unit id="HDI2_Button13" resname="HDI2_Button13">
+		<source>&lt;= array to collection</source>
+		<target>&lt;= コレクションに変換</target>
+	  </trans-unit>
+	  <trans-unit id="HDI2_Button4" resname="HDI2_Button4">
+		<source>Collection to array =&gt;</source>
+		<target>配列に変換 =&gt;</target>
+	  </trans-unit>
+	  <trans-unit id="HDI2_Button23" resname="HDI2_Button23">
+		<source>Send first element to first place  =&gt;</source>
+		<target>先頭要素を先頭に移動 =&gt;</target>
+	  </trans-unit>
+	  <trans-unit id="HDI2_Button3" resname="HDI2_Button3">
+		<source>Send last left element to last place =&gt;</source>
+		<target>末尾の左要素を末尾に移動 =&gt;</target>
+	  </trans-unit>
+	  <trans-unit id="HDI2_Button26" resname="HDI2_Button26">
+		<source>Map numbers =&gt;</source>
+		<target>数値をマップ =&gt;</target>
+	  </trans-unit>
+	  <trans-unit id="HDI2_Button17" resname="HDI2_Button17">
+		<source>Remove first element and calculate again</source>
+		<target>先頭要素を削除して再計算</target>
+	  </trans-unit>
+	  <trans-unit id="HDI2_Button5" resname="HDI2_Button5">
+		<source>Calculate values !</source>
+		<target>値を計算する！</target>
+	  </trans-unit>
+	  <trans-unit id="HDI2_Button16" resname="HDI2_Button16">
+		<source>&lt;= Insert in this collection</source>
+		<target>&lt;= このコレクションに挿入</target>
+	  </trans-unit>
+	  <trans-unit id="HDI2_Button31" resname="HDI2_Button31">
+		<source>Extract countries list =&gt;</source>
+		<target>国リストを抽出 =&gt;</target>
+	  </trans-unit>
+	  <trans-unit id="HDI2_Button36" resname="HDI2_Button36">
+		<source>Populate new object collection =&gt;</source>
+		<target>新しいオブジェクトコレクションを生成 =&gt;</target>
+	  </trans-unit>
+	  <trans-unit id="HDI2_Button14" resname="HDI2_Button14">
+		<source>Extract =&gt;</source>
+		<target>抽出 =&gt;</target>
+	  </trans-unit>
+	  <trans-unit id="HDI2_Button7" resname="HDI2_Button7">
+		<source>First Asian country =&gt;</source>
+		<target>最初のアジアの国 =&gt;</target>
+	  </trans-unit>
+	  <trans-unit id="HDI2_Button9" resname="HDI2_Button9">
+		<source>List of Asian countries =&gt;</source>
+		<target>アジアの国のリスト =&gt;</target>
+	  </trans-unit>
+	  <trans-unit id="HDI2_Button10" resname="HDI2_Button10">
+		<source>Countries with surface &lt; 1000 =&gt;</source>
+		<target>面積が1000未満の国 =&gt;</target>
+	  </trans-unit>
+	  <trans-unit id="HDI2_Button19" resname="HDI2_Button19">
+		<source>Index of first Asian country</source>
+		<target>最初のアジアの国のインデックス</target>
+	  </trans-unit>
+	  <trans-unit id="HDI2_Button21" resname="HDI2_Button21">
+		<source>Indices of countries with surface &lt; 1000 =&gt;</source>
+		<target>面積が1000未満の国のインデックス =&gt;</target>
+	  </trans-unit>
+	  <trans-unit id="HDI2_Button1" resname="HDI2_Button1">
+		<source>Search index of first null</source>
+		<target>最初のnullのインデックスを検索</target>
+	  </trans-unit>
+	  <trans-unit id="HDI2_Button6" resname="HDI2_Button6">
+		<source>Count values not null</source>
+		<target>null以外の値の数</target>
+	  </trans-unit>
+	  <trans-unit id="HDI2_Button40" resname="HDI2_Button40">
+		<source>Search index of last null</source>
+		<target>最後のnullのインデックスを検索</target>
+	  </trans-unit>
+	  <trans-unit id="HDI2_Button8" resname="HDI2_Button8">
+		<source>Count values = 5</source>
+		<target>値が5の数</target>
+	  </trans-unit>
+	  <trans-unit id="HDI2_Button24" resname="HDI2_Button24">
+		<source>Length</source>
+		<target>要素数</target>
+	  </trans-unit>
+	  <trans-unit id="HDI2_Button28" resname="HDI2_Button28">
+		<source>Deep copy** =&gt;</source>
+		<target>ディープコピー** =&gt;</target>
+	  </trans-unit>
+	  <trans-unit id="HDI2_Button30" resname="HDI2_Button30">
+		<source>Collection with distinct values =&gt;</source>
+		<target>重複のないコレクション =&gt;</target>
+	  </trans-unit>
+	  <trans-unit id="HDI2_Button32" resname="HDI2_Button32">
+		<source>First 10 elements =&gt;</source>
+		<target>最初の10要素 =&gt;</target>
+	  </trans-unit>
+	  <trans-unit id="HDI2_Button18" resname="HDI2_Button18">
+		<source>Check equality</source>
+		<target>等価性を確認</target>
+	  </trans-unit>
+	  <trans-unit id="HDI2_Button34" resname="HDI2_Button34">
+		<source>Concat =&gt;</source>
+		<target>連結 =&gt;</target>
+	  </trans-unit>
+	  <trans-unit id="HDI2_Button33" resname="HDI2_Button33">
+		<source>Collection1 =&gt;</source>
+		<target>コレクション1 =&gt;</target>
+	  </trans-unit>
+	  <trans-unit id="HDI2_Button35" resname="HDI2_Button35">
+		<source>Collection2 =&gt;</source>
+		<target>コレクション2 =&gt;</target>
+	  </trans-unit>
+	  <trans-unit id="HDI2_Button20" resname="HDI2_Button20">
+		<source>All values &gt;= 100</source>
+		<target>すべての値が100以上</target>
+	  </trans-unit>
+	  <trans-unit id="HDI2_Button22" resname="HDI2_Button22">
+		<source>At least one value &gt;=100</source>
+		<target>少なくとも1つの値が100以上</target>
+	  </trans-unit>
+	  <trans-unit id="HDI2_Button15" resname="HDI2_Button15">
+		<source>Ascending order</source>
+		<target>昇順</target>
+	  </trans-unit>
+	  <trans-unit id="HDI2_Button25" resname="HDI2_Button25">
+		<source>Reverse  collection</source>
+		<target>コレクションを反転</target>
+	  </trans-unit>
+	  <trans-unit id="HDI2_Button11" resname="HDI2_Button11">
+		<source>Descending order</source>
+		<target>降順</target>
+	  </trans-unit>
+	  <trans-unit id="HDI2_Button27" resname="HDI2_Button27">
+		<source>Custom order: by word length</source>
+		<target>カスタム順序: 文字列の長さ順</target>
+	  </trans-unit>
+	  <trans-unit id="HDI2_Text8" resname="HDI2_Text8">
+		<source>CountriesCSV</source>
+		<target>CountriesCSV</target>
+	  </trans-unit>
+	  <trans-unit id="HDI2_Text9" resname="HDI2_Text9">
+		<source>CountriesSplit</source>
+		<target>CountriesSplit</target>
+	  </trans-unit>
+	  <trans-unit id="HDI2_Text6" resname="HDI2_Text6">
+		<source>CountriesObj</source>
+		<target>CountriesObj</target>
+	  </trans-unit>
+	  <trans-unit id="HDI2_Text4" resname="HDI2_Text4">
+		<source>Countries</source>
+		<target>Countries</target>
+	  </trans-unit>
+	  <trans-unit id="HDI2_Text5" resname="HDI2_Text5">
+		<source>CountriesCopy</source>
+		<target>CountriesCopy</target>
+	  </trans-unit>
+	  <trans-unit id="HDI2_Text2" resname="HDI2_Text2">
+		<source>Numbers</source>
+		<target>Numbers</target>
+	  </trans-unit>
+	  <trans-unit id="HDI2_Text3" resname="HDI2_Text3">
+		<source>Doubles</source>
+		<target>Doubles</target>
+	  </trans-unit>
+	  <trans-unit id="HDI2_Text10" resname="HDI2_Text10">
+		<source>PricesList</source>
+		<target>PricesList</target>
+	  </trans-unit>
+	  <trans-unit id="HDI2_Text11" resname="HDI2_Text11">
+		<source>Average purchase price:</source>
+		<target>平均購入価格:</target>
+	  </trans-unit>
+	  <trans-unit id="HDI2_Text12" resname="HDI2_Text12">
+		<source>Purchase price min:</source>
+		<target>最小購入価格:</target>
+	  </trans-unit>
+	  <trans-unit id="HDI2_Text13" resname="HDI2_Text13">
+		<source>Total purchase price:</source>
+		<target>合計購入価格:</target>
+	  </trans-unit>
+	  <trans-unit id="HDI2_Text14" resname="HDI2_Text14">
+		<source>Purchase price max:</source>
+		<target>最大購入価格:</target>
+	  </trans-unit>
+	  <trans-unit id="HDI2_Text15" resname="HDI2_Text15">
+		<source>Total Price Excl Tax:</source>
+		<target>税抜合計価格:</target>
+	  </trans-unit>
+	  <trans-unit id="HDI2_Text" resname="HDI2_Text">
+		<source>Value to insert:</source>
+		<target>挿入する値:</target>
+	  </trans-unit>
+	  <trans-unit id="HDI2_Text1" resname="HDI2_Text1">
+		<source>Row number:</source>
+		<target>行番号:</target>
+	  </trans-unit>
+	  <trans-unit id="HDI2_Text21" resname="HDI2_Text21">
+		<source>Countries</source>
+		<target>Countries</target>
+	  </trans-unit>
+	  <trans-unit id="HDI2_Text17" resname="HDI2_Text17">
+		<source>CountriesObj</source>
+		<target>CountriesObj</target>
+	  </trans-unit>
+	  <trans-unit id="HDI2_Text32" resname="HDI2_Text32">
+		<source>FindRes</source>
+		<target>FindRes</target>
+	  </trans-unit>
+	  <trans-unit id="HDI2_Text7" resname="HDI2_Text7">
+		<source>Enter a property to extract:</source>
+		<target>抽出するプロパティを入力してください:</target>
+	  </trans-unit>
+	  <trans-unit id="HDI2_Text22" resname="HDI2_Text22">
+		<source>CountriesObj</source>
+		<target>CountriesObj</target>
+	  </trans-unit>
+	  <trans-unit id="HDI2_Text23" resname="HDI2_Text23">
+		<source>FindRes</source>
+		<target>FindRes</target>
+	  </trans-unit>
+	  <trans-unit id="HDI2_Text24" resname="HDI2_Text24">
+		<source>CountriesObj</source>
+		<target>CountriesObj</target>
+	  </trans-unit>
+	  <trans-unit id="HDI2_Text25" resname="HDI2_Text25">
+		<source>TypeMix</source>
+		<target>TypeMix</target>
+	  </trans-unit>
+	  <trans-unit id="HDI2_Text26" resname="HDI2_Text26">
+		<source>FindRes</source>
+		<target>FindRes</target>
+	  </trans-unit>
+	  <trans-unit id="HDI2_Text27" resname="HDI2_Text27">
+		<source>PricesWithNull</source>
+		<target>PricesWithNull</target>
+	  </trans-unit>
+	  <trans-unit id="HDI2_Text28" resname="HDI2_Text28">
+		<source>ValRes</source>
+		<target>ValRes</target>
+	  </trans-unit>
+	  <trans-unit id="HDI2_Text18" resname="HDI2_Text18">
+		<source>Coll1</source>
+		<target>Coll1</target>
+	  </trans-unit>
+	  <trans-unit id="HDI2_Text19" resname="HDI2_Text19">
+		<source>Coll2</source>
+		<target>Coll2</target>
+	  </trans-unit>
+	  <trans-unit id="HDI2_Text29" resname="HDI2_Text29">
+		<source>ValRes</source>
+		<target>ValRes</target>
+	  </trans-unit>
+	  <trans-unit id="HDI2_Text30" resname="HDI2_Text30">
+		<source>CountriesWithNull</source>
+		<target>CountriesWithNull</target>
+	  </trans-unit>
+	  <trans-unit id="HDI2_Text31" resname="HDI2_Text31">
+		<source>ValRes</source>
+		<target>ValRes</target>
+	  </trans-unit>
+	  <trans-unit id="HDI2_Header_ISO_3166_1" resname="HDI2_Header_ISO_3166_1">
+		<source>ISO 2</source>
+		<target>ISO 2</target>
+	  </trans-unit>
+	  <trans-unit id="HDI2_Header_Country" resname="HDI2_Header_Country">
+		<source>Country</source>
+		<target>国</target>
+	  </trans-unit>
+	  <trans-unit id="HDI2_Header_Surface" resname="HDI2_Header_Surface">
+		<source>Surface</source>
+		<target>面積</target>
+	  </trans-unit>
+	  <trans-unit id="HDI2_Header_Continent" resname="HDI2_Header_Continent">
+		<source>Continent</source>
+		<target>大陸</target>
+	  </trans-unit>
+	</body>
+  </file>
+</xliff>

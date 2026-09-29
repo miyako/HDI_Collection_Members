@@ -1,0 +1,44 @@
+{
+	"(In$it)": {},
+	"Callback": {
+		"methods": [
+			"Double",
+			"FindContinent",
+			"GreaterThan",
+			"PriceCalc",
+			"TotalPriceExclTax",
+			"WordLength"
+		]
+	},
+	"Default Folder": {
+		"groups": [
+			"Callback",
+			"Default Forms",
+			"Default Project Methods",
+			"Default Tables",
+			"Init"
+		]
+	},
+	"Default Forms": {},
+	"Default Project Methods": {
+		"methods": [
+			"CalcTab"
+		]
+	},
+	"Default Tables": {},
+	"Init": {
+		"methods": [
+			"Init",
+			"InitCountries",
+			"InitCountriesObj",
+			"InitInfo",
+			"InitPrices",
+			"InitPricesWithNull"
+		]
+	},
+	"trash": {
+		"groups": [
+			"(In$it)"
+		]
+	}
+}
