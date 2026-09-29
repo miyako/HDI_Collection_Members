@@ -631,8 +631,7 @@
 					"events": [
 						"onClick"
 					],
-					"class": "default",
-					"bottom": 260
+					"class": "default"
 				},
 				"Variable8": {
 					"type": "input",
@@ -807,8 +806,7 @@
 					"events": [
 						"onClick"
 					],
-					"class": "default",
-					"bottom": 620
+					"class": "default"
 				},
 				"Variable22": {
 					"type": "input",
@@ -1037,8 +1035,7 @@
 					"events": [
 						"onClick"
 					],
-					"class": "default",
-					"bottom": 260
+					"class": "default"
 				},
 				"Line11": {
 					"type": "line",
@@ -1177,8 +1174,7 @@
 					"events": [
 						"onClick"
 					],
-					"class": "default",
-					"bottom": 460
+					"class": "default"
 				}
 			}
 		},
@@ -2620,8 +2616,7 @@
 					"events": [
 						"onClick"
 					],
-					"class": "default",
-					"bottom": 380
+					"class": "default"
 				},
 				"Variable20": {
 					"type": "input",
@@ -2655,8 +2650,7 @@
 					"events": [
 						"onClick"
 					],
-					"class": "default",
-					"bottom": 260
+					"class": "default"
 				},
 				"Variable30": {
 					"type": "input",
@@ -2724,8 +2718,7 @@
 					"events": [
 						"onClick"
 					],
-					"class": "default",
-					"bottom": 500
+					"class": "default"
 				},
 				"Variable57": {
 					"type": "input",
@@ -2820,8 +2813,7 @@
 					"events": [
 						"onClick"
 					],
-					"class": "default",
-					"bottom": 620
+					"class": "default"
 				},
 				"Variable13": {
 					"type": "input",
